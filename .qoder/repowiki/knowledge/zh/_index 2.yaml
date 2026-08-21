@@ -3,11 +3,11 @@ schema_version: 1
 locale: zh-CN
 branch: master
 nodes_managed: true
-exported_at: "2026-08-21T08:32:51Z"
+exported_at: "2026-08-13T16:07:33Z"
 modules:
     "":
-        dir_name: 全球热门初创公司清单（Awesome Startups）
-        title: 全球热门初创公司清单（Awesome Startups）
+        dir_name: Awesome Startups 精选初创公司清单
+        title: Awesome Startups 精选初创公司清单
         scope:
             - README.md
         source_files: []
