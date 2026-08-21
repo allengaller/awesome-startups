@@ -1,0 +1,16 @@
+# 知识卡导出索引文件
+schema_version: 1
+locale: zh-CN
+branch: master
+nodes_managed: true
+exported_at: "2026-08-13T16:07:33Z"
+modules:
+    "":
+        dir_name: Awesome Startups 精选初创公司清单
+        title: Awesome Startups 精选初创公司清单
+        scope:
+            - README.md
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []

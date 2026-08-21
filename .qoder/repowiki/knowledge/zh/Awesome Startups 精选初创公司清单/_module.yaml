@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: ""
+title: Awesome Startups 精选初创公司清单
+scope:
+    - README.md
+source_files: []
+depends_on: []
+related_to: []
