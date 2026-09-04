@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-03T00:00:00+08:00",
+  "title": "Design System: Awesome Startups — GTM 备忘录世界",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "奶油纸 Cream Paper",
+        "canonical": "oklch(97.0% 0.007 88.6)",
+        "tonalRamp": ["#0c0b08", "#23211e", "#3c3a36", "#575551", "#73716d", "#918f8a", "#bfbdb9", "#f0eee9"]
+      },
+      "paper-night": {
+        "role": "neutral",
+        "displayName": "夜读纸 Night Paper",
+        "canonical": "oklch(23.4% 0.011 73.4)",
+        "tonalRamp": ["#0e0a06", "#25211c", "#3e3a34", "#59544f", "#76716b", "#938e88", "#c2bdb6", "#f3ede6"]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "墨色 Ink",
+        "canonical": "oklch(21.0% 0.007 78.2)",
+        "tonalRamp": ["#0d0b08", "#23211e", "#3c3a37", "#575551", "#74716d", "#918f8b", "#c0bdb9", "#f1eeea"]
+      },
+      "ink-night": {
+        "role": "neutral",
+        "displayName": "夜读墨 Night Ink",
+        "canonical": "oklch(91.8% 0.019 83.1)",
+        "tonalRamp": ["#0f0a03", "#262117", "#3f3a2f", "#5a554a", "#777165", "#958e82", "#c4bdb0", "#f5eee1"]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "弱化墨 Muted Ink",
+        "canonical": "oklch(45.5% 0.019 82.7)",
+        "tonalRamp": ["#0f0a03", "#262117", "#3f3a2f", "#5a544a", "#777165", "#958e82", "#c4bdb0", "#f5eee1"]
+      },
+      "muted-night": {
+        "role": "neutral",
+        "displayName": "夜读弱化墨 Night Muted",
+        "canonical": "oklch(69.9% 0.025 82.1)",
+        "tonalRamp": ["#100a02", "#282114", "#41392c", "#5c5446", "#797061", "#978e7e", "#c6bdac", "#f7eddc"]
+      },
+      "oxblood": {
+        "role": "primary",
+        "displayName": "牛血红 Oxblood",
+        "canonical": "oklch(44.0% 0.131 33.8)",
+        "tonalRamp": ["#1c0301", "#420b02", "#6a1907", "#8f321e", "#b0503b", "#d26f58", "#faa591", "#fee9e4"]
+      },
+      "oxblood-night": {
+        "role": "primary",
+        "displayName": "陶土红 Terracotta",
+        "canonical": "oklch(68.7% 0.120 39.7)",
+        "tonalRamp": ["#1a0400", "#3f0f00", "#672002", "#8a381a", "#ab5638", "#cc7455", "#faa689", "#fee9e2"]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display（memo-title）",
+        "purpose": "仅页面主标题；900 字重宋体的「公文印签」声部。"
+      },
+      "headline": {
+        "displayName": "Headline（entry h2）",
+        "purpose": "章节标题；牛血红小号编号在前（.55em），正文声部。"
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "中文正文 1.9 行高、栏宽 ≤38em，全页单一衬线家族。"
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "抬头字段、目次 CONTENTS、切换按钮等小型大写声部。"
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease-stamp",
+        "value": "cubic-bezier(.2, .9, .3, 1)",
+        "purpose": "盖章入场的冲击感缓动，仅用于机密章。"
+      },
+      {
+        "name": "stamp-beat",
+        "value": "0.7s cubic-bezier(.2, .9, .3, 1) 0.35s backwards",
+        "purpose": "盖章时长与延迟：页面静默 0.35s 后落章；外层 opacity + 内层 scale 双层拆分（见 memo-stamp 组件）。"
+      },
+      {
+        "name": "stillness",
+        "value": "none",
+        "purpose": "盖章之外全页静默——不加任何过渡、悬停位移动效（DESIGN.md Don't）。"
+      }
+    ],
+    "breakpoints": [
+      { "name": "notes-collapse", "value": "900px", "purpose": "批注边栏并入正文下方；抬头字段 4 列折 2×2。" },
+      { "name": "toc-single", "value": "720px", "purpose": "目次 2 列折 1 列，案例名隐藏。" }
+    ]
+  },
+  "components": [
+    {
+      "name": "主题切换按钮",
+      "kind": "button",
+      "refersTo": "theme-toggle",
+      "description": "直角 1px 描边的 Label 声部按钮，内容自称其动作（切换暗色/切换亮色），hover 转牛血红。",
+      "html": "<button class=\"ds-theme-toggle\" type=\"button\">切换暗色</button>",
+      "css": ".ds-theme-toggle { font: inherit; font-family: \"Noto Serif SC\", \"Songti SC\", serif; font-size: .78rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--ink, #1A1815); background: none; border: 1px solid var(--rule-strong, #1A1815); border-radius: 0; padding: .45em 1em; cursor: pointer; transition: none; } .ds-theme-toggle:hover { color: var(--oxblood, #8C2F1B); border-color: var(--oxblood, #8C2F1B); } .ds-theme-toggle:focus-visible { outline: 2px solid var(--oxblood, #8C2F1B); outline-offset: 2px; }"
+    },
+    {
+      "name": "机密章",
+      "kind": "custom",
+      "refersTo": "memo-stamp",
+      "description": "全页唯一动效载体：0.45em 圆角矩形橡皮章，2.5px 红框 + inset 双圈，rotate(-7deg)。缩放动画在外层容器（需 overflow-x: clip）与内层 wrapper 之间拆分——scale 关键帧若直接作用于绝对定位元素，会锁定横向滚动溢出。",
+      "html": "<div class=\"ds-stamp-clip\" style=\"overflow-x: clip; position: relative; padding: 3rem 0;\"><div class=\"ds-stamp\" aria-hidden=\"true\"><span class=\"ds-stamp__in\"><span class=\"ds-stamp__zh\">机密</span><span class=\"ds-stamp__en\">CONFIDENTIAL</span></span></div></div>",
+      "css": ".ds-stamp { position: absolute; top: 3.5rem; right: 2rem; transform: rotate(-7deg); color: var(--oxblood, #8C2F1B); border: 2.5px solid var(--oxblood, #8C2F1B); box-shadow: inset 0 0 0 2px var(--paper, #F7F5F0), inset 0 0 0 3.5px var(--oxblood, #8C2F1B); border-radius: .45em; padding: .55em 1.1em .6em; text-align: center; font-family: \"Noto Serif SC\", \"Songti SC\", serif; font-weight: 700; line-height: 1.35; opacity: .92; animation: ds-stamp-ink .7s cubic-bezier(.2, .9, .3, 1) .35s backwards; user-select: none; } .ds-stamp__in { display: block; animation: ds-stamp-press .7s cubic-bezier(.2, .9, .3, 1) .35s backwards; } .ds-stamp__zh { display: block; font-size: 1.5rem; letter-spacing: .5em; margin-right: -.5em; } .ds-stamp__en { display: block; font-size: .68rem; letter-spacing: .3em; margin-right: -.3em; } @keyframes ds-stamp-ink { 0% { opacity: 0; } 55% { opacity: .92; } 100% { opacity: .92; } } @keyframes ds-stamp-press { 0% { transform: scale(1.7); } 55% { transform: scale(.94); } 75% { transform: scale(1.03); } 100% { transform: scale(1); } } @media (prefers-reduced-motion: reduce) { .ds-stamp, .ds-stamp__in { animation: none; } }"
+    },
+    {
+      "name": "批注边栏",
+      "kind": "custom",
+      "refersTo": "margin-note",
+      "description": "「页边声音」的唯一红墨容器：牛血红正文条目，条目间以 45% 透明度红发丝线分隔；公司名 700 加粗，来源为点状下划线链接。",
+      "html": "<aside class=\"ds-notes\" style=\"max-width: 22rem;\"><p class=\"ds-note\"><span class=\"ds-note__co\">Cursor</span> —— ARR $50M（2024.11）→ $500M（2025.06）→ $2B（2026.03）<a class=\"ds-note__src\" href=\"#\">§ 主录</a></p><p class=\"ds-note\"><span class=\"ds-note__co\">Lovable</span> —— 14 个月 ARR $500M，YC W25 估值 $1.8B<a class=\"ds-note__src\" href=\"#\">§ 主录</a></p></aside>",
+      "css": ".ds-notes { font-family: \"Noto Serif SC\", \"Songti SC\", serif; font-size: .92rem; } .ds-note { border-top: 1px solid color-mix(in srgb, var(--oxblood, #8C2F1B) 45%, transparent); padding-top: .9em; margin-top: 1.5em; color: var(--oxblood, #8C2F1B); line-height: 1.85; margin-block: 1.5em; } .ds-note:first-child { margin-top: 0; padding-top: 0; border-top: none; } .ds-note__co { font-weight: 700; } .ds-note__src { font-size: .78rem; color: inherit; white-space: nowrap; text-decoration-line: underline; text-decoration-style: dotted; } .ds-note__src:hover { text-decoration-style: solid; } .ds-note__src:focus-visible { outline: 2px solid var(--oxblood, #8C2F1B); outline-offset: 2px; }"
+    },
+    {
+      "name": "目次行",
+      "kind": "nav",
+      "refersTo": "toc-row",
+      "description": "导航的唯一形态：flex + 点线引导，编号为牛血红 tabular 数字，尾部灰色案例名；hover 整行转红、点线变实红。",
+      "html": "<nav class=\"ds-toc\" style=\"max-width: 30rem;\"><h2>CONTENTS</h2><ol style=\"list-style:none;padding:0;margin:0;\"><li><a class=\"ds-toc-row\" href=\"#\"><span class=\"ds-toc-row__no\">01</span><span class=\"ds-toc-row__name\">定位</span><span class=\"ds-toc-row__dots\"></span><span class=\"ds-toc-row__cases\">Cursor / Perplexity</span></a></li><li><a class=\"ds-toc-row\" href=\"#\"><span class=\"ds-toc-row__no\">02</span><span class=\"ds-toc-row__name\">产品</span><span class=\"ds-toc-row__dots\"></span><span class=\"ds-toc-row__cases\">Lovable / Cognition</span></a></li></ol></nav>",
+      "css": ".ds-toc h2 { font-family: \"Noto Serif SC\", \"Songti SC\", serif; font-size: .78rem; font-weight: 700; letter-spacing: .3em; text-transform: uppercase; color: var(--muted, #5C564B); margin-bottom: 1.4rem; } .ds-toc-row { display: flex; align-items: baseline; gap: .8em; text-decoration: none; padding-block: .65em; color: var(--ink, #1A1815); font-family: \"Noto Serif SC\", \"Songti SC\", serif; } .ds-toc-row:hover, .ds-toc-row:focus-visible { color: inherit; outline: none; } .ds-toc-row:hover .ds-toc-row__name, .ds-toc-row:hover .ds-toc-row__no, .ds-toc-row:focus-visible .ds-toc-row__name, .ds-toc-row:focus-visible .ds-toc-row__no { color: var(--oxblood, #8C2F1B); } .ds-toc-row:hover .ds-toc-row__dots, .ds-toc-row:focus-visible .ds-toc-row__dots { border-bottom-color: var(--oxblood, #8C2F1B); } .ds-toc-row__no { font-size: .82rem; font-weight: 700; color: var(--oxblood, #8C2F1B); font-variant-numeric: tabular-nums; min-width: 2.2em; } .ds-toc-row__name { font-weight: 600; white-space: nowrap; } .ds-toc-row__dots { flex: 1; border-bottom: 1px dotted var(--rule, rgba(26, 24, 21, .16)); transform: translateY(-.28em); min-width: 1.5em; } .ds-toc-row__cases { font-size: .8rem; color: var(--muted, #5C564B); white-space: nowrap; font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "备忘录表格",
+      "kind": "custom",
+      "refersTo": "memo-table",
+      "description": "连续文档内的数据表：th 为 Label 声部 + 1.5px 墨色底线，td 以 1px 发丝线分隔；金额列牛血红 tabular 数字且不换行。",
+      "html": "<table class=\"ds-memo-table\" style=\"max-width: 38em;\"><thead><tr><th scope=\"col\">定价模式</th><th scope=\"col\">适用</th><th scope=\"col\">案例</th></tr></thead><tbody><tr><td>按结果付费</td><td>产出可计量的客服/销售</td><td>Sierra</td><td class=\"ds-memo-table__num\">$4.5B（2026）</td></tr><tr><td>免费增值</td><td>PLG 自下而上</td><td>Apollo.io</td><td class=\"ds-memo-table__num\">$1.6B</td></tr></tbody></table>",
+      "css": ".ds-memo-table { width: 100%; border-collapse: collapse; font-family: \"Noto Serif SC\", \"Songti SC\", serif; font-size: .95rem; line-height: 1.7; color: var(--ink, #1A1815); } .ds-memo-table th { text-align: left; font-weight: 700; font-size: .8rem; letter-spacing: .12em; color: var(--muted, #5C564B); border-bottom: 1.5px solid var(--rule-strong, #1A1815); padding: .6em .8em .6em 0; } .ds-memo-table td { border-bottom: 1px solid var(--rule, rgba(26, 24, 21, .16)); padding: .8em .8em .8em 0; vertical-align: top; } .ds-memo-table__num { color: var(--oxblood, #8C2F1B); font-variant-numeric: tabular-nums; white-space: nowrap; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "投资备忘录 (The Investment Memo)",
+    "overview": "整套系统把 Go-To-Market 方法论装订成一份 VC 内部传阅的 IC memo：读者不是被教育框架，而是在读一份正在发生的投资判断。纸面（#F7F5F0）即页面本身，没有卡片、没有阴影装饰——深度全部来自排印层级与发丝线。牛血红（#8C2F1B）是页边批注的墨水，只属于批注、编号与印章三处；它的稀缺就是它的权威。暗色模式不是反色而是同一世界的夜读变体（暖深纸 #211D18、陶土红 #D97F60），由 prefers-color-scheme、`?theme=` 覆盖与页内切换三重驱动。",
+    "keyCharacteristics": [
+      "连续文档流，禁卡片网格",
+      "发丝线（1px）做分隔、2.5px 实线做边界的两级线制",
+      "等宽数字（tabular-nums）承载所有金额与日期",
+      "点线引导（dotted leaders）的目次是导航的唯一形态",
+      "全页唯一入场动效：机密章盖章"
+    ],
+    "rules": [
+      {
+        "name": "The Red Ink Rule",
+        "body": "牛血红只出现在批注、编号、印章三处，任意视口占比 <10%。红一旦出现在正文或装饰上，备忘录就变成了海报。",
+        "section": "colors"
+      },
+      {
+        "name": "The One Voice Rule",
+        "body": "全页只用一个衬线家族；层级靠 900/700/400 三档字重与尺度跳变，不靠换字体。",
+        "section": "typography"
+      },
+      {
+        "name": "The Two-Weight Rule",
+        "body": "结构线只有两种：1px（发丝分隔）与 2.5px（抬头边界）。第三种粗细出现即装饰，删除。",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do 让红墨只服务「页边声音」：批注、编号、印章（The Red Ink Rule）。",
+      "Do 用点线引导与发丝线做全部结构与导航。",
+      "Do 保持全页单一衬线家族与 900/700/400 三档字重。",
+      "Do 所有数字用 tabular-nums 并标注时点（如 ARR $2B（2026.03））。"
+    ],
+    "donts": [
+      "Don't 使用卡片网格、阴影、渐变或圆角容器——备忘录是连续文档。",
+      "Don't 让牛血红进入正文、装饰或大面积色块。",
+      "Don't 引入无衬线或等宽字体做视觉声音（等宽只用于数据语义）。",
+      "Don't 在盖章之外添加入场动效；页面其余部分静默。"
+    ]
+  }
+}

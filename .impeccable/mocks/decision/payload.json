@@ -1,0 +1,95 @@
+{
+  "title": "选择 GTM 手册的视觉世界",
+  "question": "种子把『行情终端』定为本轮方向。保留它、改选别的方向，或重掷。",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "行情终端",
+      "kicker": "THE ROLL",
+      "lineage": "金融行情终端 / 盘口看板",
+      "thesis": "把 GTM 手册做成一面行情墙：公司是标的，框架是盘口，ARR 是行情。",
+      "palette": ["#0A0C10", "#F5B83D", "#2ED47A", "#8A93A6"],
+      "materials": ["等宽表格数字", "盘口网格", "涨跌色编码"],
+      "viewport": "顶部行情条滚动 2025–26 明星公司估值，下方六框架盘口与案例报价表，主操作是『选一条打法』。",
+      "risk": "暗底荧光正是 AI 默认审美的高发区；长文阅读与移动端都会吃力。",
+      "raised": [
+        {
+          "from": "challenger-zine",
+          "raise": "行情墙加装一条编号导读路径，把读者从行情条领到六框架盘口，再落到案例报价表。"
+        }
+      ],
+      "comp": ".impeccable/mocks/decision/assigned.webp"
+    },
+    {
+      "id": "model-pick",
+      "label": "投资备忘录",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "风投机构 IC 备忘录文化",
+      "thesis": "每个框架按备忘录写：论点、证据、风险，案例就是尽调材料。",
+      "palette": ["#F7F5F0", "#1A1815", "#8C2F1B"],
+      "materials": ["衬线中文标题", "章节编号", "批注边栏"],
+      "viewport": "一页备忘录封面：MEMO 编号与机密章、一行论点，右批注栏挂真实公司数字。",
+      "risk": "也是本类目大多数运行的落点：米白纸面加衬线大标题，最熟悉所以最不险。",
+      "comp": ".impeccable/mocks/decision/model-pick.webp"
+    },
+    {
+      "id": "challenger-annual",
+      "label": "案例年鉴",
+      "verdict": "wins",
+      "lineage": "设计年鉴图版页 / 公司年鉴榜单",
+      "thesis": "手册排成年鉴图版页：每个案例是一块带十字规线与来源印章的图版。",
+      "palette": ["#F5F4F6", "#16181A", "#DCDDF3", "#C9C7C4"],
+      "materials": ["无涂布近白纸", "1px 发丝线网格", "periwinkle 来源印章"],
+      "viewport": "满版年鉴封面图版：年鉴体大标题、六框架 mono 令牌条，第一块案例图版已带规线与来源章。",
+      "case": "融合最顺：案例=图版、十字规线=证据可回查、印章=来源标注——与『清单+可溯源数据』的仓库身份同构，受众认同与长文清晰度两轴全胜。",
+      "risk": "近白纸面与发丝线若排得胆小，会退化成普通文档站。",
+      "comp": ".impeccable/mocks/decision/challenger-annual.webp",
+      "hero": "https://impeccable.style/worlds/cards/design-annual-s-plate-section-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/design-annual-s-plate-section.webp"
+    },
+    {
+      "id": "challenger-noir",
+      "label": "战报海报",
+      "verdict": "competitive",
+      "lineage": "黑色电影双墨 one-sheet 海报",
+      "thesis": "整页是一张双墨战报：公司很小，增长的阴影巨大，账单栏挂案例名单。",
+      "palette": ["#F2ECDC", "#141414", "#C8862A"],
+      "materials": ["双墨丝网", "压缩大写标题", "账单栏"],
+      "viewport": "满版海报：压缩体大标题、投在墙上四倍放大的增长阴影曲线，底部账单栏列案例。",
+      "case": "识别度与记忆点最强，数据战报气质契合；但海报语法撑不起长文阅读，清晰度轴吃亏，保留为完整备选。",
+      "risk": "战报式修辞压不住时会读成营销页，与手册的可信度相抵触。",
+      "comp": ".impeccable/mocks/decision/challenger-noir.webp",
+      "hero": "https://impeccable.style/worlds/cards/posters-covers-sleeves-noir-one-sheet-duotone-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/posters-covers-sleeves-noir-one-sheet-duotone.webp"
+    },
+    {
+      "id": "challenger-zine",
+      "label": "手绘小报",
+      "verdict": "declined",
+      "lineage": "手绘技术小报 zine",
+      "palette": ["#FAF6EC", "#1C1A17", "#F7E04B"],
+      "materials": ["马克笔手写", "涂鸦箭头"],
+      "case": "融合不佳：马克笔语法与 $50B 量级数据的可信度相斥，混合成年受众的认同度也弱。",
+      "kept": "『划重点』的明确视线引导纪律。",
+      "hero": "https://impeccable.style/worlds/cards/hand-drawn-zine-explainer-hero.webp"
+    }
+  ],
+  "reroll": {
+    "registers": ["safer", "bolder"]
+  },
+  "buildPath": {
+    "value": "comp",
+    "toggle": true
+  },
+  "canon": true,
+  "canonCard": {
+    "label": "类别标准",
+    "thesis": "这个类目默认出货的样子：文档站手册，执行到极致工艺。",
+    "palette": ["#FFFFFF", "#111827", "#2563EB"],
+    "materials": ["干净栅格", "侧边目录"],
+    "viewport": "左侧栏目录加右侧长文，访客预期的排布做到满工艺。",
+    "risk": "与竞品无法区分，从众本身就是设计决定。",
+    "comp": ".impeccable/mocks/decision/canon.webp"
+  },
+  "steer": true
+}
