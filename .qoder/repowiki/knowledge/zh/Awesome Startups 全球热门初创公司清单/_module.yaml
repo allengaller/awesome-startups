@@ -1,6 +1,6 @@
 schema_version: 1
 module_path: ""
-title: 全球热门初创公司清单（Awesome Startups）
+title: Awesome Startups 全球热门初创公司清单
 scope:
     - README.md
 source_files: []

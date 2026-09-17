@@ -8,7 +8,7 @@ web
 
 ## Stack
 
-Static single-file HTML/CSS（GTM/index.html，无构建步骤，浏览器直接打开）+ 同源内容的 GTM/README.md Markdown 版本；用户在决策轮明确选择双版本交付。
+Static single-file HTML/CSS（../gtm/index.html，无构建步骤，浏览器直接打开）+ 同源内容的 ../gtm/README.md Markdown 版本；用户在决策轮明确选择双版本交付。
 
 ## Users
 
@@ -28,7 +28,7 @@ Static single-file HTML/CSS（GTM/index.html，无构建步骤，浏览器直接
 
 - 仓库主内容为 README.md（中文为主，另有英文/繁中/日文版本链接）。
 - 案例数据以 README.md 为唯一事实源，引用数字必须与 README 一致。
-- 页面置于 GTM/ 子目录；Markdown 版本遵循仓库约定：外链一律 https:// 且格式正确。
+- 页面置于 ../gtm/ 子目录；Markdown 版本遵循仓库约定：外链一律 https:// 且格式正确。
 
 ## Capabilities and Constraints
 
@@ -43,7 +43,7 @@ Static single-file HTML/CSS（GTM/index.html，无构建步骤，浏览器直接
 ## Evidence on Hand
 
 - README.md：真实公司数据（如 Cursor ARR $50M（2024.11）→ $500M（2025.06）→ $2B（2026.03）；Lovable 14 个月 ARR 突破 $500M、YC W25；Harvey ARR $1.5B、客户 Allen & Overy / PwC；Perplexity $20B、月查询 7.8 亿；ElevenLabs $11B、2025 ARR $330M；Sierra（Bret Taylor 二次创业）等）。
-- job-search-2026-shenzhen.md：求职者视角的既有内容，可作受众参照。
+- ../深圳求职/求职记录/job-search-2026-shenzhen.md：求职者视角的既有内容，可作受众参照。
 - 不得虚构：价格、客户、基准、端点、产品能力等商业与事实主张一律不发明。
 
 ## Product Principles
