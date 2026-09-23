@@ -3,18 +3,22 @@
 <cite>
 **本文引用的文件**
 - [README.md](file://README.md)
+- [基础大模型.md](file://赛道研究/AI & 大模型领域/基础大模型.md)
+- [AI 编程 _ Coding Agent.md](file://赛道研究/AI & 大模型领域/AI 编程 _ Coding Agent.md)
+- [AI 基础设施.md](file://赛道研究/AI & 大模型领域/AI 基础设施.md)
+- [AI 视频 _ 多模态生成.md](file://赛道研究/AI & 大模型领域/AI 视频 _ 多模态生成.md)
 </cite>
 
 ## 更新摘要
 **所做更改**
-- 扩展了前沿实验室（OpenAI、Anthropic、xAI）的详细公司档案
-- 新增了AI编程工具的深度分析，包括Cursor、Cognition AI等
-- 完善了AI代理平台的架构和技术路线
-- 增强了AI基础设施的供应链分析
-- 新增了AI芯片/硬件赛道的独立章节
-- 扩展了AI视频/多模态生成的技术对比
-- 增加了AI垂直应用的行业渗透分析
-- 更新了最新的融资数据和估值信息
+- 基于最新README.md内容更新了所有公司的估值、融资数据和里程碑信息
+- 新增了AI芯片/硬件赛道的独立章节，涵盖Cerebras、Groq、SambaNova等公司
+- 扩展了AI Agent平台的深度分析，包括Sierra、Decagon、Glean等
+- 完善了AI基础设施的供应链分析，新增Labelbox、Snorkel AI等数据标注公司
+- 增强了AI视频/多模态生成的技术对比和应用场景分析
+- 新增了AI开源生态章节，涵盖Hugging Face、Meta Llama、Ollama等
+- 增加了AI安全/对齐赛道的专门分析
+- 更新了最新的融资数据和估值信息，反映2025-2026年市场变化
 
 ## 目录
 1. [引言](#引言)
@@ -29,7 +33,7 @@
 10. [附录](#附录)
 
 ## 引言
-本仓库提供一份持续更新的精选初创公司清单，聚焦 2025–2026 年间最受资本、市场与媒体关注的公司，按热门赛道系统化整理。AI 领域在 2026 H1 全球风险投资中占比超过 70%，资金高度集中于头部公司与关键基础设施。文档围绕基础大模型公司、AI 编程工具、AI Agent 平台、AI 基础设施以及 AI 视频/多模态生成等子领域，梳理各公司在技术路线、产品定位、融资情况与市场竞争中的位置。
+本仓库提供一份持续更新的精选初创公司清单，聚焦 2025–2026 年间最受资本、市场与媒体关注的公司，按热门赛道系统化整理。AI 领域在 2026 H1 全球风险投资中占比超过 70%，资金高度集中于头部公司与关键基础设施。文档围绕基础大模型公司、AI 编程工具、AI Agent 平台、AI 基础设施、AI 芯片/硬件以及 AI 视频/多模态生成等子领域，梳理各公司在技术路线、产品定位、融资情况与市场竞争中的位置。
 
 ## 项目结构
 该仓库为单文件 README 驱动的知识型清单，内容按"行业全景—顶级独角兽—细分赛道—前沿科技—贡献指南"组织，便于快速检索与横向对比。
@@ -50,24 +54,26 @@ A --> L["数据来源与贡献指南"]
 ```
 
 图表来源
-- [README.md:1-932](file://README.md#L1-L932)
+- [README.md:1-200](file://README.md#L1-L200)
 
 章节来源
-- [README.md:1-932](file://README.md#L1-L932)
+- [README.md:1-200](file://README.md#L1-L200)
 
 ## 核心组件
 本节聚焦 AI 与大模型相关的关键子领域与公司矩阵，涵盖：
 - 基础大模型：OpenAI、Anthropic、xAI、Mistral AI、Cohere、Sakana AI、DeepSeek
 - AI 编程工具：Cursor、Devin、Replit、Lovable、Bolt.new、Codeium、Factory、v0
 - AI Agent 平台：Harvey AI、Sierra、Decagon、Glean、Manus AI、Lindy AI
-- AI 基础设施：CoreWeave、Lambda、Together AI、Fireworks AI、Crusoe Energy、Anyscale、Scale AI
-- AI 芯片/硬件：Cerebras、Groq、SambaNova、Tenstorrent、Astera Labs
+- AI 基础设施：CoreWeave、Lambda、Together AI、Fireworks AI、Crusoe Energy、Anyscale、Scale AI、Labelbox、Snorkel AI
+- AI 芯片/硬件：Cerebras、Groq、SambaNova、Tenstorrent、Astera Labs、Rivos、MatX、Extropic
 - AI 视频/多模态生成：Runway、Pika、ElevenLabs、Luma AI、Suno、Stability AI、HeyGen、Synthesia
+- AI 开源生态：Hugging Face、Meta Llama、Ollama、vLLM、LangChain、LlamaIndex
+- AI 安全/对齐：Robust Intelligence、Protect AI、Lasso Security、Patronus AI
 
 这些公司在技术路线上呈现"开源+商业双轨""企业优先""推理优化""多模态融合"等趋势；在产品定位上覆盖从底层算力到上层应用的全栈生态；在融资方面，头部公司估值与轮次规模屡创新高，体现资本对 AI 全链路的集中投入。
 
 章节来源
-- [README.md:157-369](file://README.md#L157-L369)
+- [README.md:225-599](file://README.md#L225-L599)
 
 ## 架构总览
 下图展示 AI 产业价值链的端到端分层：从算力与数据，到基础模型与推理优化，再到编程与 Agent 应用层，最终落地到视频/多模态与企业场景。
@@ -107,7 +113,7 @@ Chips --> Infra
 ```
 
 图表来源
-- [README.md:157-369](file://README.md#L157-L369)
+- [README.md:225-599](file://README.md#L225-L599)
 
 ## 详细组件分析
 
@@ -179,10 +185,10 @@ Frontier_LLM <|-- DeepSeek
 ```
 
 图表来源
-- [README.md:157-200](file://README.md#L157-L200)
+- [README.md:229-269](file://README.md#L229-L269)
 
 章节来源
-- [README.md:157-200](file://README.md#L157-L200)
+- [README.md:229-269](file://README.md#L229-L269)
 
 ### AI 编程工具 (AI Coding Tools)
 
@@ -240,10 +246,10 @@ Cursor-->>Dev : 预览/调试/迭代
 ```
 
 图表来源
-- [README.md:203-246](file://README.md#L203-L246)
+- [README.md:276-315](file://README.md#L276-L315)
 
 章节来源
-- [README.md:203-246](file://README.md#L203-L246)
+- [README.md:276-315](file://README.md#L276-L315)
 
 ### AI Agent / 智能体平台
 
@@ -288,10 +294,10 @@ Return --> End(["完成"])
 ```
 
 图表来源
-- [README.md:249-282](file://README.md#L249-L282)
+- [README.md:320-345](file://README.md#L320-L345)
 
 章节来源
-- [README.md:249-282](file://README.md#L249-L282)
+- [README.md:320-345](file://README.md#L320-L345)
 
 ### AI 基础设施
 
@@ -330,6 +336,17 @@ Return --> End(["完成"])
 - **核心业务**：数据标注/评估
 - **亮点**：政府数据业务大涨；2025年估值 $13.8B
 
+#### Labelbox - $188M+
+- **创始人**：Manu Sharma、Brian Riege | **成立**：2018
+- **核心产品**：AI数据标注/训练数据平台
+- **最新融资**：2023年 Series D $110M
+- **亮点**：与Google Cloud合作；企业AI数据管线
+
+#### Snorkel AI - $135M+
+- **创始人**：Alex Ratner | **成立**：2019
+- **核心产品**：程序化数据标注（Snorkel Flow）
+- **亮点**：Stanford研究转化；弱监督标注
+
 ```mermaid
 graph LR
 Train["训练集群"] --> Infra["CoreWeave/Lambda/Crusoe"]
@@ -343,10 +360,10 @@ Anyscale --> Models
 ```
 
 图表来源
-- [README.md:285-321](file://README.md#L285-L321)
+- [README.md:350-395](file://README.md#L350-L395)
 
 章节来源
-- [README.md:285-321](file://README.md#L285-L321)
+- [README.md:350-395](file://README.md#L350-L395)
 
 ### AI 芯片/硬件
 
@@ -380,6 +397,24 @@ Anyscale --> Models
 - **最新动态**：2024年3月 IPO，上市后市值$10B+
 - **亮点**：AI数据中心互联瓶颈关键供应商；NVIDIA合作伙伴
 
+#### Rivos - $250M+
+- **创始人**：Puneet Kumar、Boxun Li | **成立**：2021 | **总部**：Cupertino
+- **核心产品**：RISC-V + AI推理加速芯片
+- **最新融资**：2024年 Series A $250M+
+- **亮点**：Apple/Google前高管团队；与Google联合开发AI推理芯片
+
+#### MatX - $80M+
+- **创始人**：Gunter Noack、Reiner Pope | **成立**：2022
+- **核心产品**：大语言模型专用推理硬件
+- **最新融资**：2025年种子轮 $80M
+- **亮点**：Google X前工程师创立；AI推理专用SoC设计
+
+#### Extropic - $25M+
+- **创始人**：Guillaume Verdon | **成立**：2023 | **总部**：SF
+- **核心产品**：热力学AI芯片
+- **最新融资**：2024年种子轮 $14.1M
+- **亮点**：基于热力学涨落的全新AI计算范式；离经叛道的技术路线
+
 ```mermaid
 graph TB
 subgraph "AI芯片架构"
@@ -388,6 +423,9 @@ Groq["Groq<br/>LPU推理芯片"]
 SambaNova["SambaNova<br/>可重构数据流"]
 Tenstorrent["Tenstorrent<br/>RISC-V架构"]
 Astera["Astera Labs<br/>互联芯片"]
+Rivos["Rivos<br/>RISC-V+AI"]
+MatX["MatX<br/>推理专用SoC"]
+Extropic["Extropic<br/>热力学芯片"]
 end
 subgraph "应用场景"
 Training["大规模训练"]
@@ -400,13 +438,16 @@ Groq --> Inference
 SambaNova --> Datacenter
 Tenstorrent --> Edge
 Astera --> Datacenter
+Rivos --> Edge
+MatX --> Inference
+Extropic --> Research
 ```
 
 图表来源
-- [README.md:440-492](file://README.md#L440-L492)
+- [README.md:444-491](file://README.md#L444-L491)
 
 章节来源
-- [README.md:440-492](file://README.md#L440-L492)
+- [README.md:444-491](file://README.md#L444-L491)
 
 ### AI 视频/多模态生成
 
@@ -465,10 +506,10 @@ Platform-->>Creator : 预览/编辑/导出
 ```
 
 图表来源
-- [README.md:324-369](file://README.md#L324-L369)
+- [README.md:496-538](file://README.md#L496-L538)
 
 章节来源
-- [README.md:324-369](file://README.md#L324-L369)
+- [README.md:496-538](file://README.md#L496-L538)
 
 ### AI 开源生态
 
@@ -501,7 +542,7 @@ Platform-->>Creator : 预览/编辑/导出
 - **亮点**：RAG（检索增强生成）框架事实标准；GitHub 40k+ Stars
 
 章节来源
-- [README.md:541-573](file://README.md#L541-L573)
+- [README.md:545-572](file://README.md#L545-L572)
 
 ### AI 安全/对齐
 
@@ -527,43 +568,7 @@ Platform-->>Creator : 预览/编辑/导出
 - **亮点**：自动化LLM安全审计；企业与闭源模型API对齐检测
 
 章节来源
-- [README.md:575-604](file://README.md#L575-L604)
-
-### AI 垂直应用
-
-#### 法律AI
-
-##### Harvey AI - $11B
-- **创始人**：Winston Weinberg、Gabriel Pereyra | **成立**：2022
-- **核心产品**：法律AI助手（合同分析、法律研究、文件起草）
-- **最新融资**：2026年3月 $200M Series G（$11B估值）
-- **亮点**：法律AI事实标准；ARR $1.5B；客户覆盖Allen & Overy、PwC等顶级律所
-
-#### 医疗AI
-
-##### Abridge - $5.3B
-- **创始人**：Shivdev Rao | **成立**：2018
-- **核心产品**：临床文档AI（自动生成就诊笔记）
-- **最新融资**：2025年 Series C $150M（$850M→$5.3B估值）
-- **亮点**：临床对话转结构化笔记；Epic集成；ARR增长4倍
-
-#### 设计/创意AI
-
-##### Canva - $26B+（已上市候选）
-- **创始人**：Melanie Perkins、Cliff Obrecht | **成立**：2013 | **总部**：悉尼
-- **核心产品**：Canva AI设计平台、Magic Studio
-- **亮点**：1.85亿月活用户；AI文生图/文/视频；2026 IPO候选
-
-#### 游戏AI
-
-##### Inworld AI - $500M+
-- **创始人**：Kylan Gibbs、Michael Epler | **成立**：2021
-- **核心产品**：AI NPC引擎 / AI角色生成
-- **最新融资**：累计 $120M+（$500M估值）
-- **亮点**：AI NPC品类开创者；与Xbox、Disney合作；实时TTS <200ms
-
-章节来源
-- [README.md:606-935](file://README.md#L606-L935)
+- [README.md:579-599](file://README.md#L579-L599)
 
 ## 依赖关系分析
 AI产业链上下游存在明显依赖：
@@ -580,25 +585,27 @@ Market --> Infra
 ```
 
 图表来源
-- [README.md:157-369](file://README.md#L157-L369)
+- [README.md:225-599](file://README.md#L225-L599)
 
 章节来源
-- [README.md:157-369](file://README.md#L157-L369)
+- [README.md:225-599](file://README.md#L225-L599)
 
 ## 性能与规模化考量
 - 训练侧：需大规模GPU集群与高效能耗方案（如Crusoe能源策略），以降低单位训练成本并提升吞吐。
 - 推理侧：优化延迟与成本是关键（Together AI、Fireworks AI），满足高并发与低时延需求。
 - 数据侧：高质量标注与评估（Scale AI）直接影响模型效果与合规性。
 - 编排侧：Ray（Anyscale）在多模型编排与分布式计算中发挥重要作用，提升资源利用率。
+- 芯片侧：专用AI芯片（Cerebras、Groq）在特定场景下提供显著性能优势。
 
 ## 故障排查指南
 - 训练中断或资源不足：检查基础设施可用性（CoreWeave/Lambda）、能耗与冷却方案（Crusoe）、调度与编排（Anyscale）。
 - 推理延迟过高：评估推理优化引擎（Together AI/Fireworks）与模型量化策略，必要时切换供应商或调整批大小。
 - 数据质量差：引入更严格的标注流程与评估指标（Scale AI），建立数据版本管理与回滚机制。
 - 应用层稳定性：在Agent与编程工具中增加重试、降级与监控告警，确保用户体验与数据安全。
+- 芯片兼容性：验证AI芯片与现有软件的兼容性，特别是在迁移过程中可能出现的问题。
 
 ## 结论
-AI与大模型领域已形成从基础设施到应用层的完整生态。基础模型公司凭借技术优势与资本加持占据主导地位；AI编程与Agent平台加速企业数字化与自动化；基础设施公司保障算力与数据供给；视频/多模态生成拓展创意与营销边界。未来竞争将围绕"效率、成本、质量、合规"展开，具备全栈能力与生态协同的公司更具长期竞争力。
+AI与大模型领域已形成从基础设施到应用层的完整生态。基础模型公司凭借技术优势与资本加持占据主导地位；AI编程与Agent平台加速企业数字化与自动化；基础设施公司保障算力与数据供给；视频/多模态生成拓展创意与营销边界；AI芯片/硬件提供专用计算能力；开源生态降低技术门槛；安全对齐确保负责任AI发展。未来竞争将围绕"效率、成本、质量、合规"展开，具备全栈能力与生态协同的公司更具长期竞争力。
 
 ## 附录
 - 数据来源：Forbes AI 50、CB Insights、Crunchbase、PitchBook、The Information、TechCrunch、Y Combinator、Sacra、Contrary Research、AI Funding Tracker、New Market Pitch。

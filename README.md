@@ -5,14 +5,14 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
-[![Last Update](https://img.shields.io/badge/Last_Update-Aug_2026-blue.svg)](https://github.com/allengaller/awesome-startups)
+[![Last Update](https://img.shields.io/badge/Last_Update-Sep_2026-blue.svg)](https://github.com/allengaller/awesome-startups)
 [![Coverage](https://img.shields.io/badge/Period-2025--2026-orange.svg)](https://github.com/allengaller/awesome-startups)
 
 > **一份持续更新的精选初创公司清单** —— 聚焦 **2025–2026** 年间最受资本、市场与媒体关注的初创公司，按热门赛道系统化整理。
 >
 > 📊 **2026 H1 全球风险投资创下 $510B 历史新高**（超 2025 全年 $440B），AI 领域占比超过 **70%**。本清单按估值/融资规模从高到低排列头部公司，并按赛道组织。
 
-[English](./README_EN.md) · 简体中文 · [繁體中文](./README_TW.md) · [日本語](./README_JA.md)
+**延伸阅读**：[单公司深度研究](./赛道研究/README.md) · [深圳创业圈](./深圳创业圈/README.md) · [GTM 研究台](./gtm/README.md)
 
 </div>
 
@@ -21,7 +21,7 @@
 ## 📋 目录
 
 - [🌟 2025–2026 行业全景](#-20252026-行业全景)
-- [⚡ 估值速查表](#-估值速查表)
+- [⚡ 估值 / 市值速查表](#-估值--市值速查表)
 - [🏆 顶级独角兽 & 超级独角兽](#-顶级独角兽--超级独角兽)
 - [🤖 AI & 大模型](#-ai--大模型)
   - [基础大模型](#基础大模型-frontier-llm-labs)
@@ -52,10 +52,10 @@
   - [气候科技 / 碳捕获](#气候科技--碳捕获)
 - [💼 企业服务 / 开发者工具](#-企业服务--开发者工具)
   - [开发者基础设施](#开发者基础设施)
-  - [网络安全 / 零信任](#网络安全--零信任)
+  - [安全](#安全)
   - [数据 / 分析](#数据--分析)
   - [HR / 招聘](#hr--招聘)
-  - [营销 / 销售](#营销--销售)
+  - [CRM / 销售](#crm--销售)
   - [协作 / 生产力](#协作--生产力)
   - [API 平台](#api-平台)
   - [DevOps / 可观测性](#devops--可观测性)
@@ -97,93 +97,157 @@
 
 > 💡 **核心趋势**：
 > - **资本极度集中**：钱流向头部公司，交易数下降但单轮金额暴涨（"Fewer deals, bigger checks"）
-> - **AI 三大爆发点**：基础模型（OpenAI/Anthropic/xAI）、AI 编程（Cursor $50B）、AI Agent（Harvey $11B）
-> - **物理 AI 起飞**：人形机器人从 Demo 走向商用部署（Figure BMW 工厂、Agility GXO 仓库 10 万+ totes）
-> - **中国 AI 复苏**：DeepSeek 首轮融资 $50B、Zhipu/MiniMax 港股 IPO 后暴涨、Moonshot 6 个月融资 $3.9B
+> - **超级实体进入公开市场**：SpaceX（已并入 xAI）2026 年 6 月以 NASDAQ: SPCX 完成史上最大 IPO，募资约 $75B、首日市值约 $2.1T；Anthropic 据报道评估 2026 年 11 月上市（目标估值最高 $2T），OpenAI 已推迟至预计不早于 2027 年 —— 一级市场估值正被公开市场重新定价，SPCX 盘中高点后回落约 33% 即是信号
+> - **AI 三大爆发点**：基础模型（OpenAI/Anthropic/xAI）、AI 编程（Cursor 被 SpaceX 以 $60B 全股票收购）、AI Agent（Harvey $15.5B）
+> - **物理 AI 起飞**：人形机器人从 Demo 走向商用部署（Figure BMW 工厂、Agility GXO 仓库 10 万+ totes）；宇树科技 2026-08-19 登陆科创板（688836.SH，发行市盈率 219.23 倍）成为具身智能首家 A 股上市公司，但股价自盘中高点回撤逾 55%、收入 73.60% 来自科研教育——公开市场正对「Demo 级需求」重新定价（详见 [赛道研究 / 宇树科技](./赛道研究/具身智能/宇树科技-Unitree.md)）
+> - **中国 AI 复苏**：DeepSeek 完成首次外部融资 $7.4B（估值 $50B）、Zhipu/MiniMax 港股 IPO 后暴涨、Moonshot 6 个月融资 $3.9B
 > - **Stripe 独大**：$159B 估值，正在用支付基础设施优势切入企业计费和区块链
 
 ---
 
-## ⚡ 估值速查表
+## ⚡ 估值 / 市值速查表
 
-> 估值 ≥ $10B 的公司一览，按估值降序。截至 2026 年 8 月。
+> 收录正文中 **估值 / 市值 ≥ $10B** 的全部 75 家条目，按数字降序；点击公司名直达条目正文。
+>
+> **口径**：数字逐字照抄条目标题——私营公司为最近一轮融资估值，标 `已上市` 者为市值、`~` 为近似值，`（并购对价）`为收购交易金额、`（合并交易估值）`为并购中该方的计价、`（交易隐含）`为按持股比例倒推的整体定价、`（估）`/`（2022 高点）`/`（融资中）`/`（洽谈中）` 等为原文限定。各类数字不可直接比较，详见[数据口径说明](#数据口径说明)。
 
-| # | 公司 | 估值 | 赛道 | 最新轮次 | 状态 |
-| --- | --- | --- | --- | --- | --- |
-| 1 | xAI / SpaceX | **$1.58T**（合并） | AI + 航天 | 合并实体 | 私营 |
-| 2 | Anthropic | **$965B** | AI 基础模型 | $65B Series H (2026.05) | 私营 |
-| 3 | OpenAI | **$852B** | AI 基础模型 | $122B (2026) | 私营 |
-| 4 | Palantir | **$400B+** | 国防 / 数据 | — | 🇺🇸 上市 |
-| 5 | Stripe | **$159B** | 金融科技 | Tender (2026.02) | 私营 |
-| 6 | Databricks | **$134B** | 数据 / AI | Series K | 私营 |
-| 7 | Waymo | **$126B** | Robotaxi | — | Alphabet 子公司 |
-| 8 | Anduril | **$61B** | 国防科技 | Series F (2025) | 私营 |
-| 9 | Zhipu AI | **$56B** | 中国 AI | IPO (2026.01) | 🇭🇰 上市 |
-| 10 | Cursor (Anysphere) | **$50B**（洽谈） | AI 编程 | Series D (2025.11) | 私营 |
-| 11 | Figure AI | **$48B** | 人形机器人 | Series C (2025.09) | 私营 |
-| 12 | Ramp | **$44B** | 金融科技 | $750M (2026.06) | 私营 |
-| 13 | CoreWeave | **$35B** | AI 基础设施 | — | 私营 |
-| 14 | MiniMax | **$33B** | 中国 AI | IPO (2026.01) | 🇭🇰 上市 |
-| 15 | Cognition AI | **$26B** | AI 编程 | $1B+ (2025) | 私营 |
-| 16 | Perplexity | **$20B** | AI 搜索 | — | 私营 |
-| 17 | Scale AI | **$13.8B** | AI 数据 | — | 私营 |
-| 18 | Mistral AI | **$13.7B** | AI 基础模型 | Series C | 私营 |
-| 19 | WHOOP | **$10.1B** | 数字健康 | Series G | 私营 |
+| # | 公司 | 估值 / 市值 | 赛道 / 区域 |
+| --- | --- | --- | --- |
+| 1 | [SpaceX](#1-spacex2026-年-2-月吸收合并-xai---已上市nasdaq-spcx2t) | **🌟 已上市（NASDAQ: SPCX）~$2T** | 航天 / 火箭 / AI 基础设施 |
+| 2 | [Anthropic](#anthropic---965b) | **🌟 $965B** | 基础大模型 (Frontier LLM Labs) |
+| 3 | [OpenAI](#openai---852b) | **🌟 $852B** | 基础大模型 (Frontier LLM Labs) |
+| 4 | [Palantir Technologies](#4-palantir-technologies--400b已上市) | **$400B+（已上市）** | 国防科技 |
+| 5 | [xAI](#xai---250b合并交易估值) | **🌟 $250B（合并交易估值）** | 基础大模型 (Frontier LLM Labs) |
+| 6 | [Stripe](#5-stripe---159b) | **🌟 $159B** | 金融基础设施 / 支付 |
+| 7 | [Databricks](#6-databricks---134b) | **🌟 $134B** | 数据 / AI 平台 |
+| 8 | [Waymo](#7-waymo---126b) | **🌟 $126B** | Robotaxi / 自动驾驶 |
+| 9 | [Mercado Libre / Mercado Pago](#mercado-libre--mercado-pago--已上市-100b) | **已上市 ~$100B** | 拉美 |
+| 10 | [Anduril Industries](#1-anduril-industries---61b) | **🔥 $61B** | 国防科技 |
+| 11 | [Anysphere / Cursor](#anysphere--cursor---60b并购对价) | **🔥 $60B（并购对价）** | AI 编程 / Coding Agent |
+| 12 | [Nubank](#nubank--已上市-60b) | **已上市 ~$60B** | 拉美 |
+| 13 | [Zhipu AI / 智谱](#2-zhipu-ai--智谱---56b已上市-hkex) | **🔥 $56B（已上市 HKEX）** | 中国初创公司 |
+| 14 | [Datadog](#datadog--已上市-50b) | **已上市 ~$50B** | DevOps / 可观测性 |
+| 15 | [DeepSeek](#deepseek---50b202606-完成) | **🔥 $50B（2026.06 完成）** | 基础大模型 (Frontier LLM Labs) |
+| 16 | [Sea Limited / Shopee](#sea-limited--shopee--已上市-50b) | **已上市 ~$50B** | 东南亚 |
+| 17 | [Figure AI](#8-figure-ai---48b) | **🌟 $48B** | 人形机器人 |
+| 18 | [Revolut](#revolut--45b) | **$45B** | 欧洲 |
+| 19 | [Ramp](#ramp---44b) | **🔥 $44B** | B2B 金融基础设施 |
+| 20 | [Checkout.com](#checkoutcom--40b) | **$40B** | 欧洲 |
+| 21 | [Rocket Lab](#rocket-lab--已上市-40b) | **已上市 ~$40B** | 航空航天 |
+| 22 | [CoreWeave](#coreweave--35b) | **$35B+** | AI 基础设施 |
+| 23 | [MiniMax](#3-minimax---33b已上市-hkex) | **🔥 $33B（已上市 HKEX）** | 中国初创公司 |
+| 24 | [Wiz](#wiz--32b--被收购-42b) | **$32B → 被收购 $42B** | 安全 |
+| 25 | [Circle](#circle--已上市-30b) | **已上市 ~$30B** | 加密金融 |
+| 26 | [Safe Superintelligence](#safe-superintelligence--30b32b公开口径不一致) | **$30B–$32B（公开口径不一致）** | 基础大模型 (Frontier LLM Labs) |
+| 27 | [Scale AI](#scale-ai--29b交易隐含) | **$29B（交易隐含）** | AI 基础设施 |
+| 28 | [Unitree Robotics](#8-unitree-robotics--已上市科创板-688836sh28b) | **已上市（科创板 688836.SH）~$28B** | 具身智能 / 人形机器人 |
+| 29 | [Canva](#canva--26b已上市候选) | **$26B+（已上市候选）** | AI 垂直应用 |
+| 30 | [Cognition AI / Devin](#cognition-ai--devin---26b) | **🔥 $26B** | AI 编程 / Coding Agent |
+| 31 | [Chime](#chime--25b) | **$25B** | 投资 / 财富科技 |
+| 32 | [Reflection AI](#reflection-ai--25b投前ceo-确认-据报道-275b) | **$25B（投前，CEO 确认）/ 据报道 $27.5B** | 基础大模型 (Frontier LLM Labs) |
+| 33 | [Enflame / 燧原科技](#14-enflame--燧原科技---已上市科创板-688801sh24b) | **🔥 已上市（科创板 688801.SH）~$24B** | 中国初创公司 |
+| 34 | [Etched](#etched---21b) | **🔥 $21B** | AI 芯片 / 硬件 |
+| 35 | [Lineage Logistics](#lineage-logistics--已上市-20b) | **已上市 ~$20B** | 供应链 / 物流科技 |
+| 36 | [Moonshot AI / 月之暗面](#4-moonshot-ai--月之暗面--20b) | **$20B** | 中国初创公司 |
+| 37 | [Perplexity AI](#perplexity-ai---20b) | **🔥 $20B** | AI 搜索 / 生产力 |
+| 38 | [Polygon Labs](#7-polygon-labs--20b2022-高点) | **$20B（2022 高点）** | Web3 / 加密 |
+| 39 | [Harvey AI](#harvey-ai---155b) | **🔥 $15.5B** | AI 垂直应用 |
+| 40 | [Affirm](#affirm--已上市-15b) | **已上市 ~$15B** | 投资 / 财富科技 |
+| 41 | [Aurora Innovation](#6-aurora-innovation--已上市-15b) | **已上市 ~$15B** | 自动驾驶 / Robotaxi |
+| 42 | [ClickHouse](#clickhouse--15b) | **$15B** | 数据 / 分析 |
+| 43 | [Discord](#discord--15b) | **$15B** | 协作 / 生产力 |
+| 44 | [Grab](#grab--已上市-15b) | **已上市 ~$15B** | 东南亚 |
+| 45 | [Klarna](#klarna--已上市-147b) | **已上市 ~$14.7B** | 欧洲 |
+| 46 | [Skild AI](#2-skild-ai---14b) | **🔥 $14B** | 具身智能 / 人形机器人 |
+| 47 | [Mistral AI](#mistral-ai--137b) | **$13.7B** | 基础大模型 (Frontier LLM Labs) |
+| 48 | [Rippling](#rippling--135b) | **$13.5B** | AI 垂直应用 |
+| 49 | [Plaid](#plaid--134b) | **$13.4B** | B2B 金融基础设施 |
+| 50 | [OpenSea](#opensea--133b) | **$13.3B** | Web3 消费 |
+| 51 | [Crusoe Energy](#crusoe-energy--13b) | **$13B+** | AI 基础设施 |
+| 52 | [Grammarly](#grammarly--13b) | **$13B** | 协作 / 生产力 |
+| 53 | [Shield AI](#2-shield-ai--127b) | **$12.7B** | 国防科技 |
+| 54 | [Temporal](#temporal--1255b) | **$12.55B** | 开发者基础设施 |
+| 55 | [Figma](#figma--125b估值--拟-ipo) | **$12.5B（估值 / 拟 IPO）** | AI 垂直应用 |
+| 56 | [Deel](#deel--12b) | **$12B+** | HR / 招聘 |
+| 57 | [GoTo Group](#goto-group--已上市-12b) | **已上市 ~$12B** | 东南亚 |
+| 58 | [OpenEvidence](#openevidence--12b) | **$12B** | AI 垂直应用 |
+| 59 | [PhonePe](#phonepe--12b) | **$12B+** | 印度 |
+| 60 | [Poolside](#poolside--12b投前-6b-技术授权) | **$12B（投前）+ $6B 技术授权** | AI 编程 / Coding Agent |
+| 61 | [Thinking Machines Lab](#thinking-machines-lab--12b已交割-据报道正商-40b) | **$12B（已交割）/ 据报道正商 $40B** | 基础大模型 (Frontier LLM Labs) |
+| 62 | [Wise](#wise--已上市-12b) | **已上市 ~$12B** | 欧洲 |
+| 63 | [monday.com](#mondaycom--已上市-12b) | **已上市 ~$12B** | 协作 / 生产力 |
+| 64 | [Airtable](#airtable--11b) | **$11B** | 协作 / 生产力 |
+| 65 | [ElevenLabs](#elevenlabs---11b) | **🔥 $11B** | AI 视频 / 多模态生成 |
+| 66 | [Alchemy](#alchemy--102b) | **$10.2B** | Web3 基础设施 |
+| 67 | [WHOOP](#whoop---101b) | **🔥 $10.1B** | 可穿戴 / 健康追踪 |
+| 68 | [Astera Labs](#astera-labs--已上市-10b) | **已上市 ~$10B** | AI 芯片 / 硬件 |
+| 69 | [Notion](#notion--10b) | **$10B+** | AI 搜索 / 生产力 |
+| 70 | [Procore](#procore--已上市-10b) | **已上市 ~$10B** | PropTech / 建筑科技 |
+| 71 | [Quantinuum](#quantinuum--10b合并估值) | **$10B+（合并估值）** | 量子计算 |
+| 72 | [StepFun / 阶跃星辰](#5-stepfun--阶跃星辰--10b) | **$10B+** | 中国初创公司 |
+| 73 | [Tempus AI](#tempus-ai--已上市-10b) | **已上市 ~$10B+** | AI 诊断 / 治疗 |
+| 74 | [Worldcoin / Tools for Humanity](#worldcoin--tools-for-humanity--10b估) | **$10B+（估）** | 加密金融 |
+| 75 | [iFood](#ifood--10b估值) | **~$10B（估值）** | 拉美 |
 
-<sub>💡 完整数据详见各章节。估值 ≥ $10B 入表，按估值降序。</sub>
+<sub>💡 本表由 `python3 tools/build_speed_table.py` 从正文标题派生，不重复轮次与细节；完整数据以条目正文为准。新增条目只要在标题写 `— $XB`，重跑脚本即可复算本表。</sub>
 
 ---
 
 ## 🏆 顶级独角兽 & 超级独角兽
 
-> 以下为 2026 年估值最高、最具影响力的初创公司（按估值降序）。
+> 本节是**编辑精选的第一梯队样板**（按估值降序），用于快速建立量级感，**不是完整榜单**：正文中估值 ≥ $10B 的公司多于本节，完整且自动派生的降序排序见上方[估值 / 市值速查表](#-估值--市值速查表)。若二者不一致，以速查表为准。
 
-### 1. [OpenAI](https://openai.com) — 🌟 $852B
-- **赛道**：基础大模型 / AGI
-- **创始人**：Sam Altman、Greg Brockman、Ilya Sutskever 等
-- **成立**：2015
-- **最新融资**：2025 年 $110B 轮，估值 $730B（史上最大私人轮）；后续 $122B 估值 $852B
-- **亮点**：ChatGPT、GPT-5、Sora；与 Microsoft 深度绑定；目标 AGI
+### 1. [SpaceX](https://spacex.com)（2026 年 2 月吸收合并 xAI） — 🌟 已上市（NASDAQ: SPCX）~$2T
+- **赛道**：航天 / 火箭 / AI 基础设施
+- **创始人**：Elon Musk
+- **成立**：2002
+- **里程碑**：2026 年 2 月吸收合并 xAI，合并估值 $1.25T（SpaceX 约 $1T + xAI $250B，换股比例 0.1433，当时史上最大并购）；2026 年 6 月 12 日以固定价 $135/股完成史上最大 IPO，募资约 $75B（另设 8,330 万股绿鞋），首日收于 $160.95、市值约 $2.1T（Reuters）
+- **风险与争议**：盘中曾摸高 $225.64，2026 年 9 月 21 日回落至 $151.85（较首日收盘 -5.7%、较盘中高点约 -33%）；S-1 显示上市时营收 $18B、净亏损 $4.9B，Musk 通过 Class B 保留逾 82% 投票权，公开发行股份仅约 4%
 
 ### 2. [Anthropic](https://anthropic.com) — 🌟 $965B
 - **赛道**：基础大模型 / AI 安全
 - **创始人**：Dario Amodei、Daniela Amodei（前 OpenAI 研究员）
 - **成立**：2021
 - **最新融资**：2026 年 5 月 $65B Series H，估值 $965B（领投 Altimeter、Dragoneer）
-- **亮点**：Claude 系列模型、企业市场超越 OpenAI；ARR 高速增长
+- **收入**：年化收入运行率由 2025 年底约 $9B 升至 2026 年 7 月底**超过 $65B**（Reuters 2026-09-19 独家），已高于同期 OpenAI 的 $40B+
+- **上市进展**：据报道正评估 2026 年 11 月 IPO、估值最高或达 $2T，并考虑在上市前发布新模型（Reuters 独家，**时间与条款均未确定**）
 
-### 3. [xAI](https://x.ai) — 🌟 $200B
+### 3. [OpenAI](https://openai.com) — 🌟 $852B
+- **赛道**：基础大模型 / AGI
+- **创始人**：Sam Altman、Greg Brockman、Ilya Sutskever 等
+- **成立**：2015
+- **最新融资**：2025 年 $110B 轮（估值 $730B，史上最大私人融资轮之一）；2026 年 3 月披露累计融资约 $122B，同年 8 月 $7B 股份出售将估值推至 $852B
+- **收入**：2026 年 7 月年化收入运行率超过 $40B（Reuters）；ChatGPT 广告业务 2026 年 8 月底年化运行率 $1B，**低于**公司自设的 2026 年 $2.5B 广告目标
+- **上市进展**：已推迟 IPO 时间表，预计不早于 2027 年（Reuters 2026-09-19）；2026 年 4 月《金融时报》报道部分投资人对算力支出与收入配比持怀疑态度
+- **亮点**：ChatGPT、GPT-5、Sora；与 Microsoft 深度绑定；目标 AGI
+
+### 4. [xAI](https://x.ai) — 🌟 $250B（合并交易估值）
 - **赛道**：基础大模型 / Grok
 - **创始人**：Elon Musk
 - **成立**：2023
-- **最新融资**：$200B 估值；已与 SpaceX 合并形成 $1.58T 巨无霸实体
-- **亮点**：Grok 系列模型、X 平台深度整合、Memphis 超算集群
+- **归属**：2026 年 2 月并入 SpaceX（合并估值 $1.25T，见 [SpaceX](#1-spacex2026-年-2-月吸收合并-xai---已上市nasdaq-spcx2t) 条目），现为旗下 AI 业务，不再单独融资估值
+- **品牌更名**：2026 年 7 月 6 日 xAI 名称、logo 与 X 账号同步改为 **SpaceXAI**（Musk 5 月即表示 xAI 将不再作为独立公司存在，AI 产品统一以 SpaceXAI 品牌对外）；注意 SpaceXAI 是 SpaceX 旗下的 AI 业务品牌，legal 发行主体与股票代码仍为 SpaceX / NASDAQ: SPCX
+- **亮点**：Grok 系列模型、X 平台深度整合、Memphis「Colossus」超算集群（约 20 万张 GPU，规划扩至百万级）；Cursor 2026 年 8 月并入后可调用该集群算力
 
-### 4. [SpaceX](https://spacex.com)（xAI 母公司） — 🌟 $1.58T
-- **赛道**：航天 / 火箭
-- **创始人**：Elon Musk
-- **成立**：2002
-- **里程碑**：Starship 试飞成功；Starlink 全球覆盖；2025 完成 xAI 合并
+### 5. [Stripe](https://stripe.com) — 🌟 $159B
+- **赛道**：金融基础设施 / 支付
+- **创始人**：Patrick Collison、John Collison
+- **成立**：2010
+- **最新融资**：2026 年 2 月 tender offer 估值 $159B（较 2025 年 9 月 $106.7B 上涨 49%）
+- **亮点**：年化支付额超 $1.9T；切入企业计费和区块链（收购 Bridge $1.1B）；与顶级 AI 实验室争夺工程人才
 
-### 5. [Databricks](https://databricks.com) — 🌟 $134B
+### 6. [Databricks](https://databricks.com) — 🌟 $134B
 - **赛道**：数据 / AI 平台
 - **创始人**：Ali Ghodsi、Reynold Xin 等
 - **成立**：2013
 - **最新融资**：Series K 等多轮融资，估值 $134B
 - **亮点**：Lakehouse 架构事实标准；MosaicML 收购后布局生成式 AI
 
-### 6. [Waymo](https://waymo.com) — 🌟 $126B
+### 7. [Waymo](https://waymo.com) — 🌟 $126B
 - **赛道**：Robotaxi / 自动驾驶
 - **母公司**：Alphabet
 - **最新融资**：2025 年估值 $126B
 - **亮点**：唯一商业化 Robotaxi 服务，每周 25 万+ 付费乘客
-
-### 7. [Stripe](https://stripe.com) — 🌟 $159B
-- **赛道**：金融基础设施 / 支付
-- **创始人**：Patrick Collison、John Collison
-- **成立**：2010
-- **最新融资**：2026 年 2 月 tender offer 估值 $159B（较 2025 年 9 月 $106.7B 上涨 49%）
-- **亮点**：年化支付额超 $1.9T；切入企业计费和区块链（收购 Bridge $1.1B）；与顶级 AI 实验室争夺工程人才
 
 ### 8. [Figure AI](https://figure.ai) — 🌟 $48B
 - **赛道**：人形机器人
@@ -192,33 +256,33 @@
 - **最新融资**：2025 年 9 月 Series C $1B+，估值 $39.5B；2026 年攀升至 $48B
 - **亮点**：Figure 01/02 人形机器人；与 BMW、OpenAI 合作
 
-### 9. [Perplexity AI](https://perplexity.ai) — 🌟 $20B
+### 9. [CoreWeave](https://coreweave.com) — 🌟 $35B
+- **赛道**：AI 基础设施 / GPU 云
+- **创始人**：Michael Intrator
+- **成立**：2017
+- **最新融资**：2025 年估值 $35B
+- **亮点**：NVIDIA 重仓；专为 AI 训练打造的数据中心
+
+### 10. [Perplexity AI](https://perplexity.ai) — 🌟 $20B
 - **赛道**：AI 搜索
 - **创始人**：Aravind Srinivas
 - **成立**：2022
 - **最新融资**：2025 年 9 月估值 $20B
 - **亮点**：AI 搜索领头羊，月查询量 7.8 亿；Comet 浏览器；曾尝试收购 TikTok
 
-### 10. [Mistral AI](https://mistral.ai) — 🌟 $13.7B
+### 11. [Mistral AI](https://mistral.ai) — 🌟 $13.7B
 - **赛道**：开源大模型（欧洲）
 - **创始人**：Arthur Mensch、Guillaume Lample 等
 - **成立**：2023
 - **最新融资**：Series C 后估值 $13.7B
 - **亮点**：欧洲最大 AI 公司；开源+商业双轨；Le Chat 产品
 
-### 11. [Cohere](https://cohere.com) — 🌟 $6.8B
+### 12. [Cohere](https://cohere.com) — 🌟 $6.8B
 - **赛道**：企业级大模型
 - **创始人**：Aidan Gomez、Ivan Zhang、Nick Frosst（Transformer 论文作者之一）
 - **成立**：2019
 - **最新融资**：2025 年估值 $6.8B
 - **亮点**：专注企业部署；Command 系列模型；多云中立
-
-### 12. [CoreWeave](https://coreweave.com) — 🌟 $35B
-- **赛道**：AI 基础设施 / GPU 云
-- **创始人**：Michael Intrator
-- **成立**：2017
-- **最新融资**：2025 年估值 $35B
-- **亮点**：NVIDIA 重仓；专为 AI 训练打造的数据中心
 
 ---
 
@@ -229,19 +293,42 @@
 #### [OpenAI](https://openai.com) — 🌟 $852B
 - **创始人**：Sam Altman 等 | **成立**：2015
 - **核心产品**：ChatGPT、GPT-5、o3、Sora、Operator
-- **最新融资**：2025 年 $110B 轮（$730B 估值）；后续 $852B
-- **亮点**：OpenAI 已成为史上最大初创公司之一，估值超越传统科技巨头
+- **最新融资**：2025 年 $110B 轮（$730B 估值）；2026 年 8 月 $7B 股份出售至 $852B
+- **收入**：2026 年 7 月年化运行率超 $40B（Reuters）；IPO 已推迟至预计不早于 2027 年
+- **亮点**：史上最大初创公司之一，估值超越多数传统科技巨头；但收入运行率已被 Anthropic 反超（见下）
 
 #### [Anthropic](https://anthropic.com) — 🌟 $965B
 - **创始人**：Dario & Daniela Amodei | **成立**：2021
 - **核心产品**：Claude 4.5 / Opus、Claude Code
 - **最新融资**：2026 年 5 月 $65B Series H（$965B 估值）
-- **亮点**：以 "AI Safety" 为核心定位；企业市场份额超 OpenAI；ARR 增长最快 AI 公司之一
+- **收入**：年化运行率由 2025 年底约 $9B 升至 2026 年 7 月底超 $65B（Reuters），**高于同期 OpenAI 的 $40B+**
+- **亮点**：以 "AI Safety" 为核心定位；企业市场份额超 OpenAI；据报道正评估 2026 年 11 月 IPO
 
-#### [xAI](https://x.ai) — 🌟 $200B
+#### [xAI](https://x.ai) — 🌟 $250B（合并交易估值）
 - **创始人**：Elon Musk | **成立**：2023
 - **核心产品**：Grok 系列、Grok Code
-- **亮点**：Memphis 超算集群（20 万张 GPU）；X 平台流量入口；与 SpaceX 合并后估值达 $1.58T
+- **归属**：2026 年 2 月并入 SpaceX（合并估值 $1.25T），2026 年 6 月随母公司上市，不再单独融资定价
+- **亮点**：Memphis「Colossus」超算集群（约 20 万张 GPU，规划扩至百万级）；X 平台流量入口
+
+#### [Safe Superintelligence](https://ssi.ai) — $30B–$32B（公开口径不一致）
+- **创始人**：Ilya Sutskever（前 OpenAI 首席科学家）、Daniel Gross、Daniel Levy | **成立**：2024（2024 年 6 月注册）
+- **核心产品**：截至 2026 年 9 月**无公开模型、无产品、无公开发表的研究成果**；研究方向为「安全超级智能」
+- **最新融资**：2024 年 9 月 $1B（估值 $5B，a16z / Sequoia / DST / SV Angel）；2025 年 4 月据报道以 $32B 估值募集 $2B（Greenoaks 领投）。**Reuters 2026-07-27 报道 NVIDIA 将投资 $5B**；SSI 自身仅在 X 确认获得「重大投资」并称 12 个月内算力扩大 10 倍，金额来自 Bloomberg（TechCrunch 2026-07-27 亦同）
+- **估值分歧**：WSJ / Wikipedia / Tracxn 记为 **$30B**，FT / valueaddvc / Calcalist 记为 **$32B**——两个口径均来自可信媒体但互相矛盾，本清单并列而不取舍
+- **亮点与风险**：NVIDIA 投资据报道与 Vera Rubin 平台供应协议绑定；员工约 50 人、累计融资约 $8B、公开渠道无收入记录（C 级来源）——是「极高估值 + 零产品」结构最典型的观察样本
+
+#### [Reflection AI](https://reflection.ai) — $25B（投前，CEO 确认）/ 据报道 $27.5B
+- **创始人**：Misha Laskin（CEO，前 Google DeepMind 研究员）等 | **成立**：2024
+- **核心产品**：美国开发的开源权重前沿模型（对「中国开源模型」的直接竞争定位）
+- **最新融资**：WSJ 报道以 **$25B 投前估值**募集 $2.5B；CEO 在 CNBC Squawkbox（2026-04-23）确认按 $25B 投前完成；Forge / Sacra 记为 $27.5B Series C（2026-04）。投前 / 投后口径混用是本项目估值表最常见的偏差来源，故二者并列标注
+- **最新动态**：与 Nebius 签署 **$1B 算力协议**（TechCrunch 2026-07-14，A 级）；据报道另有 SpaceX 算力协议、上限 $6.3B（valueaddvc / turingpost 单一信息源，存疑）
+- **亮点**：NVIDIA 背书；融资节奏 2025-03 $545M → 2025-10 $8B → 2026-04 $25B，一年内估值增长约 3 倍
+
+#### [Thinking Machines Lab](https://thinkingmachines.ai) — $12B（已交割）/ 据报道正商 $40B
+- **创始人**：Mira Murati（前 OpenAI CTO）等 | **成立**：2025 年初
+- **核心产品**：Tinker（模型微调 / 训练平台）
+- **最新融资**：**Reuters 2025-07-15 确认**约 $2B、a16z 领投、估值 $12B（A 级）。TechCrunch 2026-09-03 援引 The Information 报道 Accel 正商领投 $1B、估值 $40B（据报道，未交割）；The Information 亦称 NVIDIA 洽谈投资约 $2.5B
+- **风险**：据报道 2026 年 1 月一次 $50–60B 估值的融资未能交割、定价回落到 $12B；三名联合创始人回归 OpenAI（C 级来源，需继续核实）
 
 #### [Mistral AI](https://mistral.ai) — $13.7B
 - **创始人**：Arthur Mensch 等 | **成立**：2023 | **总部**：巴黎
@@ -261,10 +348,10 @@
 - **最新融资**：2025 年 11 月 $135M Series B（$2.65B 估值）
 - **亮点**：日本 AI 国家队代表；"模型合并"等高效训练方法（详见 [科研 AI](#科研-ai) 章节）
 
-#### [DeepSeek](https://deepseek.com) — 🔥 $50B（融资中）
+#### [DeepSeek](https://deepseek.com) — 🔥 $50B（2026.06 完成）
 - **创始人**：梁文锋 | **成立**：2023 | **总部**：杭州
 - **核心产品**：DeepSeek-V3、DeepSeek-R1、DeepSeek-V4
-- **最新融资**：2026 年 5 月首次外部融资，目标从 $300M/$10B 升至 **$7B/$50B**
+- **最新融资**：**2026 年 6 月完成首次外部融资 $7.4B，估值 $50B**（The Information 报道交易已关闭，采用非常规交易结构；目标规模曾由 $300M/$10B 一路上调至 $7B/$50B）
 - **亮点**：R1 以极低成本震动全球；量化巨头 HighFlyer 背书；人才留存压力驱动首次融资
 
 ---
@@ -273,17 +360,26 @@
 
 > 2025–2026 最热门赛道，估值飙升最快的细分领域。
 
-#### [Anysphere / Cursor](https://cursor.com) — 🔥 $50B（洽谈中）
-- **创始人**：Aman Sanger 等 | **成立**：2022
-- **核心产品**：Cursor AI 代码编辑器
-- **最新融资**：2025 年 11 月 Series D $2.3B（$29.3B 估值）；2026 年正洽谈 $2B 新轮 @ $50B 估值
-- **亮点**：ARR 从 $50M（2024.11）→ $500M（2025.06）→ $2B（2026.03）；史上增速最快的 SaaS 公司
+#### [Anysphere / Cursor](https://cursor.com) — 🔥 $60B（并购对价）
+- **创始人**：Michael Truell（CEO）、Sualeh Asif（CPO）、Aman Sanger、Arvid Lunnemark（均为 MIT 辍学）| **成立**：2022（YC S22），Cursor 2023 年 3 月发布
+- **核心产品**：AI 代码编辑器（Tab 补全 + Agent）→ 编程 Agent 平台：Cloud Agents（Builds / Automations / Bugbot / Security Agents）、自托管机器、**Origin（自有 Git forge）**、CLI 与 SDK；模型层含第一方 Composer / Grok 与第三方 Claude / Gemini / GPT 池，Auto 由 Cursor Router 路由
+- **独立融资史**：2025 年 11 月 Series D $2.3B（估值 $29.3B）。2026 年 4 月曾报道以 $50B 估值募集 $2B+ 新轮（a16z、Thrive 领投，Nvidia 跟投），**该轮最终未定价**。
+- **并购**：Bloomberg 2026 年 4 月 21 日首次报道 SpaceX 取得收购选择权（对价约 $60B 全股票，或支付约 $10B 放弃费）；Reuters/CNBC 确认 2026 年 6 月 16 日签署；**2026 年 8 月 14 日交割**（SpaceX 8-K：发行 389,289,254 股 Class A + 1,752,426 股替换已归属 RSU，并承担约 2,910 万股未归属 RSU 与 4,440 万份期权，全股票、无现金）。Cursor 现为 SpaceX（xAI 已并入同一上市主体，NASDAQ: SPCX）全资子公司。
+- **模型供给（2026 年下半年关键变量）**：OpenAI 于 2026-08-28 官方宣布终止向 Cursor 提供模型的合同，拟定关停日 2026-11-12，且不供给后续模型（含下一代 Astra）；Truell 称 OpenAI 模型约占 5% 用户流量，而 OpenAI 帮助中心说明 BYOK 仅覆盖本地 Chat 与 Agent（Tab、Auto、Cloud Agents、CLI、SDK 不在内）。先例为 Windsurf 2025-06 被 Anthropic 在一周内限制一方模型访问。Cursor 一侧则上新自研 Composer 2.5 与 Grok 4.7、接入 SpaceX「Colossus」集群训练（Composer 2 发布后约两小时被开发者识别为基于 Moonshot Kimi K2.5，Musk 与联合创始人公开承认，Moonshot 称为授权商业合作）。
+- **收入**：ARR $100M（2025.01）→ $500M（2025.06，公司博客）→ $1B（2025.11）→ $2B（2026.02，Bloomberg 2026-03-02 报道）→ $3B（2026 年 4 月底，Bloomberg 2026-05-21 报道）→ **$4B（2026.06，Forbes 报道）**；企业端占比约 75%。应用层软件史上增长最快的案例之一。深度研究见 [赛道研究 / Anysphere（Cursor）](./赛道研究/AI%20&%20大模型领域/Anysphere-Cursor.md)。
 
 #### [Cognition AI / Devin](https://cognition.ai) — 🔥 $26B
 - **创始人**：Scott Wu | **成立**：2023
 - **核心产品**：Devin（自主 AI 软件工程师）
 - **最新融资**：2025 年 $1B+ 轮（$26B 估值）
 - **亮点**：90% 代码由自家 AI 编写；营收 1 年增长 13 倍至 $492M
+
+#### [Poolside](https://poolside.ai) — $12B（投前）+ $6B 技术授权
+- **成立**：2023
+- **核心产品**：面向企业的代码大模型，以及「Model Factory」自动化模型生产管线
+- **最新融资**：Newcomer 报道 **NVIDIA 以 $6B 取得其 Model Factory 软件的非独家授权，并另行投资 $1B、投前估值 $12B**；Forbes 2026-08-24 同口径，并确认三位联合创始人留任。Tracxn 记 Series C $1B（2026-08-21）、累计融资约 $1.63B（C 级）
+- **此前**：Crunchbase News / Bloomberg 报道 2024 年 9 月 Series B $500M、估值 $3B；2024 年 10 月披露收入约 $300M（C 级）
+- **亮点**：「授权 + 入股」而非纯股权的结构，与 SSI、Reflection AI 的 NVIDIA 交易同属 2026 年算力—资本绑定模式；比较估值时须注意 $6B 授权费不计入估值
 
 #### [Replit](https://replit.com) — $3B
 - **创始人**：Amjad Masad | **成立**：2016
@@ -313,6 +409,27 @@
 - **核心产品**：AI UI 生成器
 - **亮点**：日生成量超百万组件；与 Vercel 部署深度集成
 
+#### [Amp](https://ampcode.com) — 从 Sourcegraph 分拆（未披露独立估值）
+- **创始人**：Quinn Slack（CEO）、Beyang Liu 等（原 Sourcegraph 联合创始人及 Amp 团队成员）| **成立**：2025 年 5 月作为 Sourcegraph 产品发布，2025 年 12 月 2 日分拆为独立公司
+- **核心产品**：前沿编程 Agent + 云端运行环境（Orbs：可在手机 / Web / CLI 接续的远端代理）
+- **分拆**：**Sourcegraph 官方博客 2025-12-02 确认两家公司分离**（A 级）——Sourcegraph 专注企业级代码搜索与代码理解（Dan Adler 出任 CEO），Amp 成为「independent research lab」，Slack 与 Liu 转入 Sourcegraph 董事会
+- **收入**：分拆公告时自称已盈利，但未披露收入或利润数字（A 级自述、无第三方验证）
+- **定价实验**：2025-10-15 推出广告支持的 Amp Free；2026 年 3 月取消广告改为每日免费额度；2026 年中暂停且表示不打算恢复（tech-insider / bitdoze，C 级）。现行订阅为 Megawatt $20/月与 Gigawatt $200/月（含 $200 用量），另有 0% 加价、$5 起充的按量直通计费
+- **亮点与风险**：AI 编程赛道里罕见的「母公司主动放走最强增长曲线」案例；也是唯一把「广告补贴编程 Agent」当作商业模式认真试过的公司——无论成败都值得作为定价模型样本记录。法务实体名据报道为 Amp Frontier Corporation（C 级）
+
+#### [Magic](https://magic.dev) — 估值未披露（累计融资 $768M，官网宣称）
+- **创始人**：Eric Steinberger、Sebastian De Ro | **成立**：2022
+- **核心产品**：超长上下文代码模型（公司博客的研究方向为 ultra-long context，并给出 500 万 token 上下文窗口）
+- **最新融资**：**公司主页自述「拥有数千台 GB200，并从 Nat Friedman、Daniel Gross、CapitalG、Elad Gil、Sequoia、Jane Street 等处募集 $768M」**（官网宣称）；TechCrunch 2024-08-29 确认完成 $320M 一轮（Schmidt、CapitalG、Atlassian、Elad Gil、Jane Street、Nat Friedman、Daniel Gross、Sequoia 参与），但**该轮估值无法核实**（A 级：金额确证 / 估值未披露）；更早的 Series A 为 $23M（公司博客）
+- **口径分歧**：累计融资三个来源三个数字——官网 $768M、Tracxn $466M／4 轮（C 级）、创始人 LinkedIn 自述「$515 million」（应为滞后快照）。此前：Reuters 2024-07-02 报道其寻求以 $1.5B 募资；PitchBook（经 ODSC 引用）记 2024 年 2 月估值 $500M
+- **亮点与风险**：与 SSI 同属「以 AGI 研究叙事募集巨额资本、但公开产品与收入记录极薄」的一类；引用时须区分「融资额可确证」与「估值不可确证」
+
+#### [Zed](https://zed.dev) — 未上市（Series B $32M）
+- **成立**：2022（创始人为 Atom 编辑器原班人马）
+- **核心产品**：Rust 编写的高性能协作代码编辑器 + AGPL 开源 Agent CLI
+- **最新融资**：**Sequoia 领投 $32M Series B**（公司博客 + BusinessWire 2025-08-20，A 级）；2023 年 3 月 $10M、估值 $40M（TechCrunch）；Tracxn 记累计 $42M（C 级）
+- **亮点**：与 Cursor 相反的路线——不锁死模型、按 token 用量计费（免费档含 2,000 次补全接受与 $5 token 额度）。本清单收录它不是因为估值，而是作为「AI 编程工具第二梯队」的估值参照物：头部 $60B 与底部 $40M 相差三个数量级
+
 ---
 
 ### AI Agent / 智能体平台
@@ -327,6 +444,15 @@
 - **核心产品**：客服 AI Agent 平台
 - **最新融资**：2025 年 6 月 $131M Series C（$1.5B 估值）
 - **亮点**：从 challenger 跃升头部；客户包括多家 Fortune 500
+
+#### [Vapi](https://vapi.ai) — $500M
+- **成立**：YC 出身（Bessemer、Y Combinator 为其早期投资方）| **总部**：旧金山
+- **核心产品**：语音 AI Agent 平台（把电话呼叫变成可编程接口，供企业自建语音客服、预约、销售外呼等）
+- **最新融资**：**公司博客与 GlobeNewswire 2026-05-12 确认 Series B $50M**；TechCrunch 同日给出 **估值 $500M**，并报道 **Amazon Ring 在 40 余家竞标者中选择 Vapi**；参投含 Microsoft 的 M12、Kleiner Perkins、Bessemer；累计融资 $72M（A 级）
+- **此前**：Reuters 2024-12-12 记录 $20M 早期轮（Bessemer、Y Combinator 参与），**当时估值 $130M**（据知情人士）。即 17 个月估值上涨约 3.8 倍
+- **收入与规模**：公司博客称一年内企业收入增长 10 倍、平台累计通话量超 10 亿次；TechCrunch 记员工约 100 人。第三方 GetLatka 另记 2025 年 ARR $8M（C 级）——**该数字与「企业收入一年 10 倍」的自述无法互相印证，两者都不可当作已核实事实使用**
+- **亮点**：与 Sierra、Decagon 构成「Agent 落地层」的三种切法——Sierra 卖端到端客服体验、Decagon 卖客服 SaaS、Vapi 卖**语音基础设施**（客户即开发者，模型层可替换）。它也是对「应用层收入乘数」最敏感的样本：$500M 估值究竟对应什么量级的收入，公开口径根本没给出可比答案
+- **风险**：语音赛道上游（OpenAI、Anthropic、ElevenLabs 等的实时语音 API）持续商品化，平台层的差异化窗口可能很短
 
 #### [Glean](https://glean.com) — $7.25B
 - **创始人**：Arvind Jain | **成立**：2019
@@ -377,10 +503,46 @@
 - **核心业务**：Ray 开源 AI 平台
 - **亮点**：开源 Ray 框架背后公司；多模型编排能力领先
 
-#### [Scale AI](https://scale.com) — $13.8B
-- **创始人**：Alexandr Wang | **成立**：2016
-- **核心业务**：数据标注 / 评估
-- **亮点**：政府数据业务大涨；2025 年估值 $13.8B
+#### [Exa](https://exa.ai) — $2.2B
+- **成立**：2021（前身 Metaphor）| **CEO**：Will Bryk
+- **核心产品**：面向 AI 的语义搜索引擎与检索 API（Exa Search / Embeddings）
+- **最新融资**：**$250M Series C、估值 $2.2B，a16z 领投**（公司博客，A 级；PYMNTS 报道 2026 年 5 月宣布）；此前 $85M 由 Benchmark 领投、估值 $700M，Lightspeed、Y Combinator、NVIDIA 风投 NVentures 跟投（公司博客）；Tracxn 记累计 $361M（C 级）
+- **亮点**：「AI 原生搜索」赛道估值最高的一家，客户为模型厂商与 Agent 平台
+
+#### [Tavily](https://tavily.com) — 被收购（Nebius，$275M）
+- **核心产品**：面向 Agent / RAG 的实时检索 API
+- **归属**：**Bloomberg 2026-02-10 报道 Nebius 同意以 $275M 收购 Tavily**；公司博客标题为「Tavily Is Joining Nebius」；**Nebius 20-F 明确「On February 19, 2026, the Company acquired a 100% ownership interest in Tavily」**（A 级，交割日以 SEC 文件为准）
+- **最后一段独立融资**：Series A 金额存在**未调和的两种口径**——$20M（Calcalist / Sacra）与 $25M（领投方 Insight Partners 官方帖 + TechCrunch 2025-08-06 标题）；2024 年 7 月种子轮 $5M。全程未披露估值
+- **收入与增长**：官网宣称月下载量超 100 万次、零市场营销支出——官网宣称，无第三方验证
+- **亮点**：与上方 Exa 构成检索赛道最重要的对照：Exa 以 $2.2B **估值**独立募 $250M，Tavily 以 $275M **收购对价**整体售出（两者量级相近但性质不可直接比：一个是股权定价、一个是控制权交易对价）。它也是「独立检索 API 公司被算力/云平台收编」的样本——买方 Nebius 同时是 Reflection AI 的算力提供方
+
+#### [Parallel](https://parallel.ai) — $2B（投后）
+- **创始人 / CEO**：Parag Agrawal（前 Twitter CEO）| 2025 年 8 月正式推出产品（据报道）
+- **核心产品**：面向 AI Agent 的网页检索、抓取与研究 API（「为网络的第二个用户而建」——官方表述中的第二个用户即 agent）
+- **最新融资**：**公司博客确认 Series B $100M、估值 $2B**（A 级）；TechCrunch 2026-04-29 同口径，Sequoia 领投，Index Ventures、First Round 等在投；官方明确本轮「较五个月前的估值翻了一倍多」，累计融资 $230M
+- **此前**：2025 年 11 月 Series A $100M、投后估值 $740M；2024 年 1 月种子轮 $30M（Sacra，C 级；其「累计约 $130M」为 Series B 前的滞后快照）
+- **亮点**：本赛道估值爬升速度的极端样本——**5 个月从 $740M 到 $2B（约 2.7 倍）**，且两轮金额同为 $100M，涨价完全来自叙事而非轮次规模。与 Exa（$2.2B 独立募资）、Tavily（$275M 被 Nebius 收购）三者并置，即 2026 年「检索/网页数据」赛道的完整定价区间：$275M 对价 / $2B / $2.2B
+
+#### [Prime Intellect](https://primeintellect.ai) — $1B+
+- **成立**：2024
+- **核心产品**：大规模分布式训练 / 强化学习平台（提供算力、RL 环境、沙箱、评估与部署）
+- **最新融资**：**TechCrunch 2026-07-08 确认 $130M Series A、估值 $1B**；公司博客称由 Radical Ventures 领投，NVIDIA Ventures、Intel Capital、Dell Technologies Capital 参与，累计融资超 $150M（A 级）
+- **收入**：公司博客宣称「不到一年内年化收入超过 $100M」——官网宣称，无第三方验证
+- **亮点**：Ramp 联席 CEO Karim Atiyeh 评价其结果在准确率上超过前沿模型且成本更低（TechCrunch 引用）；分布式训练商品化的代表
+
+#### [Scale AI](https://scale.com) — $29B（交易隐含）
+- **创始人**：Alexandr Wang | **成立**：2016 | **总部**：旧金山
+- **核心业务**：高质训练数据（标注 / RLHF / 模型评估）+ 面向企业与政府的 AI 应用平台；SEAL（Safety Evaluation and Alignment Lab）承担前沿模型基准评测
+- **2025 年 6 月 Meta 交易（本赛道迄今最大的单一买方定价事件）**：
+  - **NYT / CNBC / Fortune**：Meta 宣布向 Scale 投资 **$14.3B**，取得 **49% 股权**；据 Scale 发言人对 CNBC 的说明，**该股份不含投票权**，公司仍为独立运营实体
+  - **Reuters 2025-06-13**（报道标题即为「valuing startup at $29 billion」，引两名知情人士）：该交易对 Scale 的整体定价约 **$29B**，为 2024 年 5 月 Series F 的 $13.8B 的 **2 倍以上**
+  - **官方博客**确认创始人 Alexandr Wang 离开公司加入 Meta 负责 AI 工作（据报道出任首席 AI 官、主导新组建的 Superintelligence Labs），并留任 Scale 董事；NYT 称这笔投资用于启动 Meta 的 Superintelligence Lab
+- **领导层**：Wang 离任后，2024 年 9 月加入任 Chief Strategy Officer 的 **Jason Droege**（Uber Eats 联合创始人）出任临时 CEO 并转正，2026 年 1 月仍以 CEO 身份发布年度业务博客；**2026-07-30** 官方博客、PRNewswire、Reuters、Axios 一致确认，董事会任命前 Google Cloud COO **Francis deSouza** 为 CEO，**2026-08-10 生效**
+- **收入与业务**（官方口径，2026-01-22 博客《Scale's Next Era: Building for 2026》）：称 2025 年为「史上最强财年」，全年新增业务额超过 **$1B**，其中近半数来自 Q4；applications 业务收入在下半年翻倍以上，预计 2026 年再翻倍；**数据业务「下半年表现最好、且已实现盈利」，并点名反驳 Meta 交易后的媒体负面报道**；Q4 enterprise 新增客户含 Mayo Clinic、BP、Allianz；SEAL 全年新增 15 个前沿榜单、在 50+ 个模型上发布 450 余次评估
+- **政府业务**：官方博客称 2025 年获「Department of War」（原美国国防部）两份合同合计接近 **$200M**，Q3 为美国政府业务史上最佳季度（含两笔九位数合同）；主导五角大楼 AI agent 任务规划项目 Project Thunderforge（与 Anduril、Microsoft 合作）；国际公共部门收入翻倍，卡塔尔 / 阿联酋 / 沙特为最快增长区域
+- **口径分歧**：(1) **$14.3B 是投资对价、$29B 是由 49% 持股比例倒推的隐含整体估值**，两者不可并列为两个估值；(2) 早期报道与财经节目以 **$15B / $14.8B** 称呼这笔交易的规模，被部分二手站点误当作估值，衍生出「$14.8B vs $30.2B」之争，清洁读法仍是「投入约 $14.3B、隐含约 $29B」；(3) 据报道，自 2025 年 6 月之后**没有新的定价轮次或二级市场成交刷新过这个标记**，因此 $29B 是单一战略买方给出的价格、而非市场清算价
+- **纠错记录**：本条目曾为占位短条目，仅列 2024 年 5 月的 $13.8B 并写作「2025 年估值 $13.8B」，**完全遗漏 Meta 的 49% 投资、$29B 隐含估值与创始人离任**，使估值停留在被交易推翻前的旧标记上。2026 年 9 月依 Reuters / CNBC / NYT / 官方博客重写
+- **亮点与风险**：本清单里「战略投资 ≠ 融资额 ≠ 估值」最集中的案例，也是「钱、人才、客户一起随买方流动」的典型。正面：数据业务在失去前沿实验室客户后宣称已盈利，政府与应用业务撑起第二曲线，说明标注主业可重建。风险：据报道 OpenAI、Google、Microsoft 等在交易后撤回或收缩业务（公司官方明确否认其影响到数据业务收入），而 $29B 与客户流失竟源自同一事件——定价锚点被抽走后无人重新出价，新 CEO 的企业销售背景（前 Google Cloud COO）正是对这一空档的直接回应。与 Surge AI 并置即 2026 年数据赛道的两种处境：一个已完成准控制权交易但估值失去市场验证，一个仍在靠独立叙事抬价且尚未交割
 
 #### [Labelbox](https://labelbox.com) — $188M+
 - **创始人**：Manu Sharma、Brian Riege | **成立**：2018
@@ -440,6 +602,13 @@
 ### AI 芯片 / 硬件
 
 > AI 芯片赛道在 2025–2026 迎来"NVIDIA 挑战者"浪潮，Cerebras、Groq、SambaNova 等公司融资数十亿美元。
+
+#### [Etched](https://etched.com) — 🔥 $21B
+- **成立**：2022 | **总部**：San Jose
+- **核心产品**：Transformer 专用 ASIC（一张芯片服务所有主流 Transformer 模型），对外以「前沿推理集群 / Gigawatt 级」形式销售算力而非卖卡
+- **最新融资**：**公司官网 2026-08-18 公告 $700M、估值 $21B，由 Jane Street 领投**（A 级）；Jane Street 已收到首台机柜并在声明中确认完成芯片测试。参投含 Kleiner Perkins、Sequoia、a16z、Peter Thiel、Tiger Global、Bain Capital Ventures、Stripes、Blackstone 等
+- **估值轨迹**：DCD 援引 Bloomberg（2026-01）报道 $500M @ $5B（Stripe 领投，当时「尚未公告」）→ TechCrunch（2026-07-23）报道 Series C $300M @ $10.3B、并称交割前已锁定 $1B 客户订单 → 2026-08-18 官方 $21B。半年内估值涨约 4 倍，且早期轮次的金额与估值在媒体口径间不一致，故完整保留轨迹而不合并成单一数字
+- **风险**：ASIC 路线押注 Transformer 架构不被下一代模型范式淘汰；Gigawatt 级建厂与供应链是资本密集且尚未验证的执行难题
 
 #### [Cerebras Systems](https://cerebras.net) — 已上市 ~$5B
 - **创始人**：Andrew Feldman | **成立**：2015 | **总部**：Sunnyvale
@@ -511,6 +680,30 @@
 - **最新融资**：2026 年 Series D $500M（$11B 估值）
 - **亮点**：2025 年 ARR $330M；NVIDIA 战略投资；挑战 Suno
 
+#### [World Labs](https://worldlabs.ai) — 估值未披露（据报道约 $5B）
+- **创始人**：李飞飞（Fei-Fei Li）| **成立**：2024 | **总部**：旧金山
+- **核心产品**：Marble——生成「空间一致、高保真」可探索 3D 世界的世界模型（订阅 $20–95/月）
+- **最新融资**：**公司博客确认 $1B 融资**（A 级）；Reuters 2026-02-18 同口径并确认 **Autodesk 投资 $200M 且将出任顾问**；官方明确未披露估值。Bloomberg 报道 2026 年 1 月融资谈判估值约 $5B（据报道）
+- **此前**：2024 年 $230M、估值约 $1B（C 级）；累计约 $1.23B；据报道 NVIDIA、AMD 参与本轮
+- **亮点**：世界模型（spatial intelligence）方向的旗手；本条目是「融资额确证、估值未披露」的标准案例——引用时不可把 $1B 融资额当作估值
+
+#### [Decart](https://decart.ai) — 据报道接近 $4B（投后）
+- **成立**：2023 年底 | **总部**：以色列 | **创始人**：Dean Leitersdorf（CEO）、Moshe Shalev（CPO）（据 investgame，C 级）
+- **核心产品**：DOS（低延迟推理 / 训练栈）、Lucy（面向沉浸式体验的世界模型）、Oasis（面向物理 AI 的世界模型）
+- **最新融资**：**WSJ 2026-05-18：Series B $300M、Radical Ventures 领投，估值接近 $4B**；新增投资方含 NVIDIA、Atreides Management、Valor Equity、Adobe Ventures、Toyota Ventures、eBay Ventures，Sequoia、Benchmark、Zeev Ventures 续投（公司博客标题同口径，A/B 级）
+- **此前**：2024 年 10 月 $21M 种子轮出隐身（Sequoia）→ 2024 年 12 月 $32M、估值超 $500M（TechCrunch）→ 2025 年 8 月 $100M、估值 $3.1B（Fortune 2025-08-07，当时累计 $153M）
+- **纠错记录**：WSJ 在回溯 2025 年 8 月那轮时写成「$153 million」——该数字实为**当时的累计融资额**而非单轮金额，属媒体口径错误。此处保留标注，避免以讹传讹
+- **累计**：公司博客 >$450M；Tracxn 记 $453M（C 级）；investgame 分析称 17 个月内估值上涨约 8 倍（C 级）
+- **亮点**：与 [Etched](#ai-芯片--硬件) 直接交叉——2024 年 10 月 Oasis 世界模型即与 Etched 联合开发，芯片方与实时世界模型方互为对方的推理需求方，是「专用 ASIC 绑定单一高帧率场景」最完整的正例
+
+#### [Odyssey](https://odyssey.ml) — $1.45B
+- **创始人**：Oliver Cameron（CEO）、Jeff Hawke（CTO）（自动驾驶领域背景）| **成立**：2023 | **总部**：帕洛阿尔托
+- **核心产品**：文本提示驱动的交互式视频与世界模型；Starchild-1（同步实时音频 + 视频，可响应流式文本 / 语音 / 动作）、可玩的 GoldenEye 演示
+- **最新融资**：**TechCrunch 2026-06-17：Series B $310M、估值 $1.45B，Natural Capital 领投，Amazon、AMD Ventures、GV 等参与**；累计融资 $337M（A 级）
+- **此前**：累计 $27M，含 EQT Ventures 领投的 $18M Series A（S&P Global 报道）
+- **云与算力**：AWS 成为 preferred cloud，并将针对 Trainium 优化模型；天使投资人含 Jeff Dean、Elad Gil、Garry Tan、Guillermo Rauch、Kyle Vogt
+- **亮点**：与世界 Labs、Decart 构成本清单的「世界模型三家」对照——**同一叙事三种定价**：World Labs 融资 $1B 但估值未披露（据报道约 $5B）、Decart 据报道约 $4B、Odyssey $1.45B；三家均无可比的公开收入数据，因此估值差只能解释为叙事与团队溢价，而非业绩差
+
 #### [Luma AI](https://luma.ai) — $4B+
 - **核心产品**：Dream Machine 视频生成
 - **最新融资**：2025 年 11 月 Series C $900M
@@ -526,6 +719,13 @@
 - **创始人**：Emad Mostaque | **成立**：2019 | **总部**：伦敦
 - **核心产品**：Stable Diffusion、Stable Video
 - **亮点**：开源图像生成最大旗手；经历领导层动荡后重整
+
+#### [Black Forest Labs](https://bfl.ai) — $3.25B（投后）/ 据报道正商 ~$4B
+- **创始人**：Stable Diffusion / 潜在扩散论文原班作者 | **成立**：2024 | **总部**：德国弗莱堡（Freiburg）
+- **核心产品**：FLUX 系列图像生成模型（含开放权重版与 API 版）
+- **最新融资**：**公司博客确认 Series B $300M、投后估值 $3.25B**（A 级）；Fortune 2026-02-17 同口径，称之为欧洲最大规模的 AI 融资之一。FT 另行报道其「悄然募集超过 $450M」；techfundingnews 据报道正以约 $4B 估值募集 $200–300M（未交割）
+- **收入**：Sacra 记 2025 年 8 月 ARR $96.3M（C 级）
+- **亮点**：欧洲 AI 的估值标杆之一，也是「论文团队离职—创业—开放权重商业化」路径最成功案例；与 Stability AI 同源而路线相反（不押注全开源）
 
 #### [HeyGen](https://heygen.com) — $500M+
 - **核心产品**：AI 数字人视频生成
@@ -609,11 +809,13 @@
 
 #### 法律 AI
 
-#### [Harvey AI](https://harvey.ai) — 🔥 $11B
+#### [Harvey AI](https://harvey.ai) — 🔥 $15.5B
 - **创始人**：Winston Weinberg、Gabriel Pereyra | **成立**：2022
-- **核心产品**：法律 AI 助手（合同分析、法律研究、文件起草）
-- **最新融资**：2026 年 3 月 $200M Series G（$11B 估值）
-- **亮点**：法律 AI 事实标准；ARR $1.5B；客户覆盖 Allen & Overy、PwC 等顶级律所
+- **核心产品**：法律 AI 助手（合同分析、法律研究、文件起草、Agent 工作流）
+- **最新融资**：2026 年 9 月 $550M，估值 $15.5B（Reuters 2026-09-09 报道，Diffusion 与 Lightspeed 联合领投）；此前 2026 年 3 月 $200M @ $11B
+- **收入**：据报道 ARR 约 $300M（2026 年中，The Information），2026 年 8 月起年化收入突破 $350M；第三方机构 Sacra 估算 2026 年 8 月约 $400M（**估算值，非公司披露**）
+- **客户**：官网宣称美国营收前 100 律所中 80% 在用；早期标杆客户含 Allen & Overy、PwC
+- **扩张**：2026 年内完成 4 笔收购，最新一起为 Guardrails AI（条款未披露）
 
 #### [Legora](https://legora.com) — $5.55B
 - **成立**：2023
@@ -646,9 +848,10 @@
 - **核心产品**：企业法务 AI 助手
 - **亮点**：YC W25 项目；专注 in-house counsel
 
-#### [Relativity**](https://relativity.com) — 已上市 ~$4B
+#### [Relativity](https://relativity.com) — IPO 秘密申报（2026.03）目标估值约 $4B
 - **核心产品**：电子发现 / 法律审查
 - **亮点**：eDiscovery 品类开创者；AI 驱动的文件审查
+- **状态**：2026 年 3 月秘密申报美股 IPO（据报道），将成为 2021 年 DISCO 以来首家上市的法律科技公司；2021 年 Silver Lake 入股时估值 $3.6B，2026 年 1 月完成 $920M 债务再融资
 
 #### [Spellbook](https://spellbook.legal) — $20M+
 - **核心产品**：合同起草 AI（基于 GPT）
@@ -920,9 +1123,9 @@
 - **核心产品**：AI 销售 intelligence + 数据平台
 - **亮点**：275M+ 联系人数据库；免费增值模式驱动
 
-#### [ZoomInfo](https://zoominfo.com) — 已上市 ~$4B
+#### [ZoomInfo](https://zoominfo.com) — 已上市 ~$1.1B
 - **核心产品**：B2B 数据 / 销售 intelligence
-- **亮点**：企业级联系数据龙头
+- **亮点**：企业级联系数据龙头；纳斯达克代码已由 ZI 变更为 GTM
 
 #### [Seismic](https://seismic.com) — $1.5B+
 - **核心产品**：销售赋能 / 内容管理
@@ -979,10 +1182,11 @@
 - **核心产品**：Digit 双足机器人
 - **亮点**：GXO 仓库已搬运超 **10 万 totes**（最可量化的人形机器人商用数据）；Amazon 测试
 
-### 8. [Unitree Robotics](https://unitree.com) — 🔥 IPO 进行中
-- **总部**：杭州 | **成立**：2016
-- **核心产品**：H1、G1、R1 人形机器人
-- **亮点**：2025 年营收 **RMB 17 亿**（同比 4 倍）；G1 售价 $13,500、R1 仅 $4,900；已进入 IPO 审核；以低价颠覆市场
+### 8. [Unitree Robotics](https://unitree.com) — 已上市（科创板 688836.SH）~$28B
+- **总部**：杭州 | **成立**：2016 | **上市**：2026-08-19（发行价 150.80 元，发行市值约 610 亿元）
+- **核心产品**：R1 / G1 / H1 / H2 人形机器人；Go、B 系列四足机器人；机械臂
+- **收入**：2025 年 **16.99 亿元**（同比 +332.3%）、毛利率约 60%；2026H1 营收 11.52 亿元（+48.54%），但**扣非净利润同比 -19.34%**
+- **亮点与争议**：R1 起售价 $4,900、G1 $13,500，以低价击穿全球市场；招股书显示人形机器人收入 **73.60% 来自科研教育**，明确写入的工业场景收入仅 1,570.20 万元，在手订单 2.82 亿元；股价自 2026-08-20 盘中高点回撤逾 55%，219.23 倍发行市盈率为科创板极值。深度研究见 [赛道研究 / 宇树科技](./赛道研究/具身智能/宇树科技-Unitree.md)。
 
 ### 9. [AgiBot / 智元机器人](https://agibot.com) — 🔥 量产先锋
 - **总部**：上海 | **成立**：2023
@@ -1233,10 +1437,11 @@
 - **核心产品**：知识图谱驱动的药物发现平台
 - **亮点**：欧洲最大 AI 制药公司之一； ALS 药物候选已进临床试验
 
-#### [Exscientia](https://exscientia.ai) — 已上市（纳斯达克）
+#### [Exscientia](https://exscientia.ai) — 已并入 Recursion（原纳斯达克 EXAI 已退市）
 - **总部**：Oxford | **成立**：2012
 - **核心产品**：AI 驱动的精准医学和药物设计
 - **亮点**：首批将 AI 设计的分子推向临床试验的公司；与 Sanofi、Bayer 合作
+- **状态**：2025 年初与 Recursion 完成全股票合并（交易估值约 $688M），EXAI 自纳斯达克摘牌；合并后原 Recursion 股东持有约 74%（据报道）
 
 #### [Relay Therapeutics](https://relaytherapeutics.com) — 已上市 ~$3B
 - **总部**：Cambridge, MA | **成立**：2016
@@ -1278,14 +1483,14 @@
 
 ### 航空航天
 
-> 注：SpaceX 已并入 xAI 合并实体。
+> 注：SpaceX（2026 年 2 月吸收合并 xAI、6 月以 NASDAQ: SPCX 上市）见 [🏆 顶级独角兽](#-顶级独角兽--超级独角兽) 章节，本节收录其余航天初创。
 
 #### [Relativity Space](https://relativityspace.com) — $5B+
 - **创始人**：Tim Ellis、Jordan Noone | **成立**：2015
 - **核心产品**：Terran R / Terran 1 可回收火箭
 - **亮点**：3D 打印火箭；Terran 1 成功入轨
 
-#### [Rocket Lab](https://rocketlabusa.com) — 已上市 ~$30B
+#### [Rocket Lab](https://rocketlabusa.com) — 已上市 ~$40B
 - **创始人**：Peter Beck | **成立**：2006
 - **核心产品**：Electron、Neutron 火箭
 - **亮点**：2025 年完成 21 次发射；与 MDA Space 合作
@@ -1294,9 +1499,10 @@
 - **核心业务**：卫星成像 / 地球观测
 - **亮点**：200+ 卫星组成的星座；与 Google 合作
 
-#### [Firefly Aerospace](https://fireflyspace.com) — 已上市 $10B+
+#### [Firefly Aerospace](https://fireflyspace.com) — 已上市 ~$3.6B
 - **核心产品**：Alpha 火箭、Blue Ghost 月球着陆器
 - **亮点**：2025 年成功登月（Blue Ghost Mission 1）
+- **状态**：2025 年 8 月以 $45/股定价登陆纳斯达克（FLY），募资约 $868M；首日收盘约 $8.5B，此后回落至约 $3.6B（2026.09）
 
 #### [Axiom Space](https://axiomspace.com) — $2.6B+
 - **核心产品**：商业空间站、AxH1 任务
@@ -1397,6 +1603,23 @@
 - **创始人**：Karri Saarinen、Jori Lallo | **成立**：2019
 - **核心产品**：Linear 项目管理
 - **亮点**：产品体验标杆；ARR $100M+；设计师最爱
+
+#### [Sourcegraph](https://sourcegraph.com) — $2.625B（2021 年定价，此后未再融资）
+- **联合创始人**：Quinn Slack、Beyang Liu | **现任 CEO**：Dan Adler（2025 年 12 月起）
+- **核心产品**：企业级代码搜索与代码理解；2025 年 12 月把编程 Agent 业务分拆给 Amp 后，聚焦「Agent 时代的大代码库搜索」，并推出按结果计费的 Agentic Batch Changes（公司博客）
+- **最新一轮**：**官方博客 + TechCrunch 2021-07-13：Series D $125M、a16z 领投、估值 $2.625B**（A 级）；Tracxn 记累计 $223M／5 轮（C 级）。**2021 年后无新的定价轮次记录**
+- **口径分歧**：multiples.vc 称「$150M 一轮」（C 级），与官方博客 $125M 不符——以官方为准；tessl 等二手报道把估值写作 $2.6B，系四舍五入
+- **亮点与风险**：本清单中罕见的「大模型时代之前定价、五年未被重新定价」的独角兽。$2.625B 是 2021 年市场环境的产物，既不能与 2026 年的 AI 编程公司横向比较，也不代表当前交易价格；而其最强增长曲线（Amp）已由自身主动分拆——这类条目引用时必须标注定价年份，并区分「母公司估值」与「业务现状」
+
+#### [Temporal](https://temporal.io) — $12.55B
+- **联合创始人**：Samar Abbas（CEO）、Maxim Fateev | **成立**：2019（Tracxn 记总部西雅图，公司新闻稿 dateline 为旧金山）
+- **核心产品**：Durable Execution（持久化执行）平台——开发者用普通代码编写长时运行流程，跨系统编排、状态保存与故障自动恢复由平台承担；开源内核 + Temporal Cloud 商业托管
+- **创始人背景**（均出自官方博客）：Maxim Fateev 在 Amazon 主导过为 SQS 奠基的消息基础设施、后牵头 Simple Workflow Service（SWF）；Samar Abbas 参与 2012 年 SWF 对外发布，在 Microsoft 联合创建开源 Durable Task Framework（Azure Durable Functions 即建于其上）。两人在 Uber 合建 Cadence（三年内 100+ 内部用例、2017 年开源），2019 年离开 Uber 创办 Temporal
+- **最新融资**：**官方博客 + BusinessWire 2026-09-14：Series E $550M、估值 $12.55B**（A 级）。Lightspeed 联合领投，Wellington Management、Goldman Sachs Alternatives 成长股权、Tiger Global 参与，T. Rowe Price 与 SV Angel 加注，a16z、Sequoia、Index、GIC、Sapphire、Amplify 为老股东。Reuters 同日标题把估值取整为「$12.6 billion」
+- **此前**：**官方博客 2026-02-17：Series D $300M、估值 $5B**（A 级）——7 个月内估值约 2.5 倍。Tracxn 与 Forge Global 记累计融资约 $1.2B（C 级）
+- **收入**（官网宣称，无第三方审计）：年化收入运行率同比增长超 200%；自当年 2 月起净收入留存持续高于 200%；8 月单月处理 1.9 万亿计费动作（同比 +350%）；开源安装量超 4,300 万（自 2025 年 12 月 +134%）；付费客户超 4,300 家（同比 +139%），含 OpenAI、Snap、NVIDIA——Snap 每日 4.14 亿条 Stories 运行其上，OpenAI 用量在不到一年内增长 60 倍；团队一年内翻倍至 570 人
+- **口径分歧**：官方未标注 $12.55B 为投前或投后。Bloomberg 2026-08 报道洽谈时称「投前至少 $12B」（Dealroom 转述），与「$12.55B 为投后」的读法一致，但不可当作官方结论。Clay 页面仍显示「当前估值 $5B、累计 $754M」，属 Series E 之前的陈旧快照，引用会出错
+- **亮点与风险**：「AI 基础设施可靠性层」重定价最可查证的样本——每一档涨幅都挂在用量与留存上，可与 [数据 / 分析](#数据--分析) 章节的 ClickHouse（$6.4B → $15B，年化收入同比翻三倍至 $250M）对照阅读，两者同属「收入驱动的 infra 重估」，与 Parallel、SSI 的「金额不变、叙事涨价」形成对照。风险有三：其一，全部经营数据均为官网自述，公开渠道无收入绝对值，$12.55B 对应的倍数无法由外部计算；其二，「持久化执行」正被大模型厂商与云厂商内置为平台能力，独立编排层的议价空间可能被上游压缩（与 Sierra、Vapi 面对同一类结构性风险）；其三，估值在 7 个月内已跳 2.5 倍，下一轮若增速放缓，回撤幅度同样缺乏收入锚点
 
 ### 安全
 
@@ -1544,6 +1767,13 @@
 - **核心产品**：自动化数据集成
 - **亮点**：ELT 自动化标杆
 
+#### [ClickHouse](https://clickhouse.com) — $15B
+- **核心产品**：开源实时分析数据库 / 数仓（ClickHouse Cloud），并向 AI 原生工作负载扩展（可观测性、向量与 LLM 日志分析）
+- **最新融资**：**公司博客 2026-01-16 确认 Series D $400M、Dragoneer 领投**；Bloomberg 同日确认**估值 $15B**，并指出这较不到一年前的估值「翻了一倍多」（A 级）。本轮随附两件事：**收购 Langfuse**（LLM 可观测性）与**推出 Postgres 产品**
+- **此前**：2025-05-29 公司博客宣布 Series C $350M、Khosla Ventures 领投，新投资方 BOND、IVP、Battery、Bessemer，老投资方 Index、Lightspeed、GIC、Benchmark、Coatue、FirstMark 与 **Nebius**，累计投入超 $300M、合计超 $650M，另获 Stifel 与 Goldman Sachs 牵头的 $100M 信贷额度（A 级）；该轮第三方记为估值 $6.35B–$6.4B（C 级，**官方博客未披露估值**）
+- **收入**：TechCrunch 2026-05-27 报道年化收入一年翻三倍至 **$250M**，并明确其在走向 IPO 的路径上（A 级）；累计融资超 $1B（Sacra，与官方口径一致）
+- **亮点**：本清单里「开源基础设施 + AI 时代重新定价」最干净的案例——$6.4B → $15B 的涨幅由收入三倍驱动，与 Parallel、SSI 那种「金额不变、叙事涨价」形成鲜明对照。值得注意的交叉：老股东 Nebius 在 2026 年 2 月收购了 Tavily，算力平台正在同时收购数据与检索层
+
 ### HR / 招聘
 
 #### [Deel](https://deel.com) — $12B+
@@ -1559,9 +1789,18 @@
 
 > Rippling（$13.5B）详见 [金融 / 财务 AI](#金融--财务-ai) 章节。
 
+### CRM / 销售
+
+#### [Attio](https://attio.com) — 估值未披露（累计融资 $116M，官网宣称）
+- **核心产品**：AI 原生 CRM（自定义数据模型 + 销售流程 + 客户上下文）
+- **最新融资**：**公司博客确认 Series B $52M、GV 领投，并自述「We've now raised $116 million to date」**（A 级；PRNewswire 同口径）；此前一轮 $33M；种子轮 $7.7M 由 Point Nine 领投、Balderton 参与
+- **口径分歧**：multiples.vc 记累计 $116M／4 轮、最近一轮为 2025 年 8 月（C 级）；Tracxn 记 $141M／7 轮（C 级）——两家数据库对「是否已发生更新的轮次」判断不一致，本清单以公司博客的 $116M 为准
+- **风险**：**所有轮次均未披露估值**（notice.co 明确「We are missing all Attio funding round valuations」）。网上另有「Series E、估值 $1.4B」的说法，但来源为不可归属的 LinkedIn 片段，本清单不采信
+- **亮点**：与 Salesforce / HubSpot 的「表单 + 字段」范式相反，主张以开发者优先的数据结构重建 CRM。它是「增长叙事强、但估值全程不透明」的典型——把它当作 CRM 新贵引用时，可确证的只有融资额，不是估值
+
 ### 协作 / 生产力
 
-#### [ monday.com](https://monday.com) — 已上市 ~$12B
+#### [monday.com](https://monday.com) — 已上市 ~$12B
 - **核心产品**：Work OS 项目管理
 - **亮点**：视觉化项目管理 SaaS；全球 200,000+ 客户
 
@@ -1934,7 +2173,7 @@
 ### 5. [Monad](https://monad.xyz) — $3B+（估）
 - **核心产品**：高性能 L1 公链
 - **最新融资**：2025 年估值 $3B+
-- **亮点**：EVM 兼容；并行执行
+- **亮点**：EVM 兼容；并行执行；10,000 TPS 目标
 
 ### 6. [Berachain](https://berachain.com) — $3B+
 - **核心产品**：流动性证明 L1
@@ -1973,18 +2212,9 @@
 - **核心产品**：DeFi 专用 L1
 - **亮点**：Cosmos 生态 DeFi 链；衍生品交易基础设施
 
-### 14. [Berachain](https://berachain.com) — $3B+
-- **核心产品**：流动性证明 L1
-- **亮点**：Proof of Liquidity 创新
-
-### 15. [Movement Labs](https://movementlabs.xyz) — $40M+
+### 14. [Movement Labs](https://movementlabs.xyz) — $40M+
 - **核心产品**：Move-based 以太坊 L2
 - **亮点**：将 Move VM 带到以太坊生态
-
-### 16. [Monad](https://monad.xyz) — $3B+
-- **核心产品**：高性能 L1 公链
-- **最新融资**：2025 年估值 $3B+
-- **亮点**：EVM 兼容；并行执行；10,000 TPS 目标
 
 ### DeFi 协议
 
@@ -2228,7 +2458,7 @@
 - **核心产品**：商业地产资产管理
 - **亮点**：CRE 资产管理 SaaS 龙头；10B+ sq ft 管理
 
-#### [Matterport](https://matterport.com) — 已上市 ~$800M
+#### [Matterport](https://matterport.com) — 已被 CoStar 收购（2025.03 完成，纳斯达克退市）
 - **核心产品**：3D 房产数字孪生
 - **亮点**：全球最大 3D 空间数据库；AI 自动建模
 
@@ -2468,11 +2698,15 @@
 - **最新动态**：2024 年 10 月港股 IPO 募资 $800M+
 - **亮点**：中国最大车载 AI 芯片公司；与大众、比亚迪合作
 
-### 14. [Enflame / 燧原科技](https://enflame-tech.com) — ~$20B+
-- **成立**：2018 | **总部**：上海
-- **核心产品**：云端 AI 训练 / 推理芯片（Enflame CloudScorpio）
-- **最新融资**：2024 年 D 轮融资后估值攀升；腾讯战略投资
-- **亮点**：中国国产 GPU 替代先锋；腾讯云最大 AI 算力供应商
+### 14. [Enflame / 燧原科技](https://enflame-tech.com) — 🔥 已上市（科创板 688801.SH）~$24B
+- **创始人**：赵立东、张亚林（均有 AMD 背景）| **成立**：2018 | **总部**：上海
+- **核心产品**：云端 AI 训练 / 推理芯片（天垓 / 无影系列，第五、六代在研）
+- **最新动态**：2026 年 9 月 11 日登陆上交所科创板，证券简称「燧原-U」（尚未盈利标记）；发行价 142.18 元，募资 **61.19 亿元** 全额投向第五、六代 AI 芯片与软硬件协同研发；首日开盘 410 元（+188.37%）、盘中最高 475 元、收盘 397 元（+179.22%），总市值 **1708.5 亿元**（按 7.1 元/美元折算约 $24B），盘中一度突破 2000 亿元
+- **估值口径提醒**：2025 年最后一批老股转让估值约 **182 亿元**（约 $2.6B）——一二级估值差近 10 倍，市销率 61.8 倍发行 / 171 倍开盘，为「AI 五小虎」中最高
+- **财务**：2023–2025 营收 3.01 / 7.22 / 9.90 亿元（三年 CAGR 81.32%）；2026 上半年营收 11.20 亿元（+279.08%），半年已超 2025 全年；归母净亏损 16.65 / 15.10 / 11.64 亿元，2026 上半年亏损 6.32 亿元，2025 年末未弥补亏损 44.41 亿元；公司自估 2026 或 2027 年扭亏
+- **研发强度**：2023–2025 研发投入 12.29 / 13.12 / 11.35 亿元，三年累计近 37 亿元，占累计营收 **182.55%**
+- **腾讯关系（核心争议点）**：2018 年以 2.86 亿元首次入股，此后持续加注，腾讯系累计投入约 22.76 亿元、持股 8020.98 万股（发行后约 18.64%），为最大外部股东；同时是第一终端客户——2023–2025 来自腾讯体系收入 1.00 / 2.73 / 8.30 亿元，占营收 **33.34% / 37.77% / 83.79%**；向腾讯销售单价低于非关联第三方。管理层称已签可执行至 2027 年的长期订单，第四代产品正推进外部客户灰度测试（2026 小规模交付、2027 批量交付）
+- **亮点 / 风险**：国产 AI 芯片「四小龙 / 五小虎」中最后一家上市，上市前完成 10 轮融资、累计募资破 90 亿元；风险是客户结构高度集中、自身造血不足依赖股权输血，且面对英伟达 / AMD 与国内大厂自研芯片的三面挤压
 
 ### 15. [Smartmore / 思谋科技](https://smartmore.com) — $1B+
 - **创始人**：贾佳亚 | **成立**：2019 | **总部**：深圳
@@ -2587,7 +2821,7 @@
 - **核心产品**：Headless CMS
 - **亮点**：无头 CMS 先驱；企业内容基础设施
 
-> Snyk（$7.4B）详见 [网络安全 / 零信任](#网络安全--零信任) 章节。
+> Snyk（$7.4B）详见 [安全](#安全) 章节。
 
 #### [Checkout.com](https://checkout.com) — $40B
 - **总部**：伦敦 | **成立**：2012
@@ -2974,16 +3208,39 @@
 
 ### 收录标准
 
-- 公司必须为**私营初创公司**（IPO 之前的除外）
-- 必须有 **2025–2026 年期间的重要融资或里程碑**
-- 必须有 **公开可验证的来源**（媒体报道、官方网站）
+主体应为**私营初创公司**，并同时满足：
+
+- 有 **2025–2026 年期间的重要融资或里程碑**
+- 有 **公开可验证的来源**（官方公告、媒体报道、官网）
 - 优先收录**有产品上线、显著用户量或战略合作**的公司
+
+**例外情形**（允许收录，但必须显式标注，不得默认当作初创公司呈现）：
+
+| 情形 | 标注方式 | 为什么要收 |
+|---|---|---|
+| 调研期内完成 IPO | 条目标题注明「已上市」，估值改为市值口径 | 退出事件本身就是赛道信号 |
+| 大厂全资子/分拆体 | 注明「母公司：××」 | 独立融资与运营，具比较价值 |
+| 成立久、体量已远超"初创" | 归入「超级独角兽」并说明 | 作为估值参照系 |
+
+标注缺失即视为条目不合格——**读者必须能一眼看出这条不是普通私营初创**。
 
 ### 排除范围
 
-- 已上市大型科技公司（除非刚刚被拆分出来的子公司）
+- 已上市、且与初创生态无判断关系的大型科技公司
 - 仅有概念阶段、无实际产品的项目
 - 无法验证信息的"PPT 公司"
+- 无任何 2025–2026 动态的历史公司
+
+### 数据口径说明
+
+- **估值 ≠ 市值 ≠ 并购对价 ≠ 融资额**。私营公司取最近一轮融资估值；标 `已上市` 者取市值；`（并购对价）` 为收购交易金额、`（合并交易估值）` 为并购中该方的计价。四类数字不可互相比较，也不可跨类排序。
+- **限定词一律保留原文**：`~` 为近似值，`（估）` 为媒体或第三方估算，`（洽谈中）`/`（融资中）` 为尚未交割的目标估值，`（2022 高点）` 为历史峰值。带限定词的数字不代表当前状态，[估值 / 市值速查表](#-估值--市值速查表)逐字照抄这些写法。
+- **收入口径分三种**：ARR（年度经常性收入）、年化收入运行率（run rate）、全年确认收入互不相等。正文一律标注统计时点与来源；第三方机构（如 Sacra）的推算一律写「估算」。
+- **证据分级**：公司官网与通稿数据属公司自述，未经独立核实；仅一家媒体报道以「据报道」标注；查不到的信息直接写「公开渠道无记录」。完整核实标准见 [赛道研究/收录规范](./赛道研究/README.md)。
+- **榜单口径存在差异**（如深圳独角兽胡润计 44 家、GEI 计 47 家），保留差异并注明来源，不强行取单一数字。
+- **条目带 🌟 为头部、🔥 为本期高变动**，仅表关注度，不表推荐。
+- 数据截至 **2026 年 9 月**：一级市场融资/估值与已上市市值均已更新至 2026-09；仍停留在 2025–2026 H1 的条目以条目标注日期为准。融资与市值状态变化极快，引用前请回查来源。
+- 单公司的深度核实与风险判断见 [赛道研究/](./赛道研究/README.md)，本清单不做投资建议。
 
 ---
 
@@ -3006,6 +3263,6 @@ Creative Commons CC0 1.0 Universal
 欢迎通过 [Issues](https://github.com/allengaller/awesome-startups/issues) 反馈问题或建议；
 也欢迎 [Discussions](https://github.com/allengaller/awesome-startups/discussions) 分享你的看法。
 
-<sub>最后更新：2026 年 8 月 14 日 · 数据截至 2026 H1 · 持续更新中</sub>
+<sub>最后更新：2026 年 9 月 23 日 · 数据截至 2026 年 9 月 · 持续更新中</sub>
 
 </div>

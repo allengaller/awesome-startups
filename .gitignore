@@ -1,0 +1,23 @@
+# 设计与预览工具的本地产物（截图 / mock / 中间态），不入库
+.impeccable/
+
+# 个人求职与运营资料统一放在仓库外的 awesome-startups-personal/，若被链回本地也不入库
+/个人/
+/深圳求职/
+/自媒体/
+
+# IDE 自动生成的仓库百科：与 赛道研究/ 是两套真相，会互相矛盾；
+# 且它会索引仓库外的 /深圳求职/ 路径，一旦入库等于公开个人求职资料
+.qoder/
+
+# Python 校验脚本的本地缓存（不依赖各机器的 global gitignore）
+__pycache__/
+*.pyc
+
+# 操作系统与编辑器
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/

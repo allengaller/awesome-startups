@@ -26,7 +26,7 @@ Static single-file HTML/CSS（../gtm/index.html，无构建步骤，浏览器直
 
 ## Operating Context
 
-- 仓库主内容为 README.md（中文为主，另有英文/繁中/日文版本链接）。
+- 仓库主内容为根 README.md（简体中文单语版本；曾有英/繁/日链接但对应文件不存在，已移除）。
 - 案例数据以 README.md 为唯一事实源，引用数字必须与 README 一致。
 - 页面置于 ../gtm/ 子目录；Markdown 版本遵循仓库约定：外链一律 https:// 且格式正确。
 
@@ -34,7 +34,8 @@ Static single-file HTML/CSS（../gtm/index.html，无构建步骤，浏览器直
 
 - HTML 版：单文件、无构建依赖、支持明暗双模式与响应式多视口。
 - Markdown 版：结构化目录、案例可表格化、回链根 README。
-- 未决：页面是否需要多语言（当前仅中文）；是否在根 README 加入口链接（待用户批准）。
+- 未决：页面是否需要多语言（当前仅中文）。
+- 已定：根 README 已在文首「延伸阅读」挂出 GTM 研究台入口。
 
 ## Brand Commitments
 
@@ -42,8 +43,16 @@ Static single-file HTML/CSS（../gtm/index.html，无构建步骤，浏览器直
 
 ## Evidence on Hand
 
-- README.md：真实公司数据（如 Cursor ARR $50M（2024.11）→ $500M（2025.06）→ $2B（2026.03）；Lovable 14 个月 ARR 突破 $500M、YC W25；Harvey ARR $1.5B、客户 Allen & Overy / PwC；Perplexity $20B、月查询 7.8 亿；ElevenLabs $11B、2025 ARR $330M；Sierra（Bret Taylor 二次创业）等）。
-- ../深圳求职/求职记录/job-search-2026-shenzhen.md：求职者视角的既有内容，可作受众参照。
+- 根 README.md 为唯一数字来源，本手册引用的锚点数字包括：
+  - Cursor（Anysphere）ARR $100M（2025.01）→ $500M（2025.06）→ $1B（2025.11）→ $2B（2026.02）→ $3B（2026 年 4 月底）→ $4B（2026.06，Forbes 报道）；独立融资停在 Series D $2.3B @ $29.3B（2025.11），后以约 $60B 全股票对价被 SpaceX 收购。
+  - Lovable $1.8B（2025）；14 个月内 ARR 突破 $500M；YC W25。
+  - Harvey AI $15.5B（2026 年 9 月 $550M 轮）；据报道 ARR 约 $300M（2026 年中，The Information）；官网宣称美国营收前 100 律所中 80% 在用，标杆客户含 Allen & Overy、PwC。
+  - Perplexity AI $20B；月查询量 7.8 亿。
+  - ElevenLabs $11B（2026 年 Series D $500M）；2025 年 ARR $330M。
+  - Sierra $4.5B（Bret Taylor、Clay Bavor，2024 年创立）；按结果付费。
+  - Cognition AI / Devin $26B；营收 1 年增长 13 倍至 $492M。
+  - Glean $7.25B；500+ 企业客户。Outreach $4.4B、ARR $300M+。Apollo.io $1.6B、275M+ 联系人数据库。
+- 上述数字已逐条回查根 README 对应条目并保持一致；根 README 更新时须同步复核本手册，不得单方向漂移。
 - 不得虚构：价格、客户、基准、端点、产品能力等商业与事实主张一律不发明。
 
 ## Product Principles
